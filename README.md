@@ -1,4 +1,5 @@
-INFO133-Equipo0
+INFO133-Equipo00
+
 Integrantes: Felipe Córdova, Sebastián Montecinos, Francisco Labrín
 
 
