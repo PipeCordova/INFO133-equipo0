@@ -1,6 +1,6 @@
 INFO133-Equipo00
 
-Integrantes: Felipe Córdova, Sebastián Montecinos, Francisco Labrín
+Integrantes: Felipe Córdova {@PipeCordova}, Sebastián Montecinos {SebaMonte07}, Francisco Labrín {Lagartin1}
 
 
 
