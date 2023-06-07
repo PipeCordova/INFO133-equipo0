@@ -1,4 +1,4 @@
-INFO133-Equipo00
+INFO133_Equipo00
 
 Integrantes: 
 - Felipe Córdova @PipeCordova
