@@ -14,7 +14,7 @@ except mariadb.Error as e:
     print(f"Error connecting to MariaDB Platform: {e}")
     sys.exit(1)
 
-def nuevoMedio():
+def nuevoMedio() -> None:
     
     # Get Cursor
     cur = conn.cursor()
@@ -78,13 +78,13 @@ def nuevoMedio():
     
     
     
-def nuevaNotica():
+def nuevaNotica() -> None:
     x = 0    
     
     
     
     
-def main(): 
+def main() -> None: 
     while True :
         print("****MENU****")
         print("1 Nuevo medio de prensa") 
