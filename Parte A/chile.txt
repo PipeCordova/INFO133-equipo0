@@ -354,7 +354,7 @@
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
     - Ubicacion: Chillán
 
-41. TVN
+42. TVN
     - Año de creacion: 1969
     - Fundador: Eduardo Ravani
     - URL: www.tvn.cl
@@ -363,7 +363,7 @@
     - Xpath: 
     - Ubicacion: Santiago
 
-41. Mega Noticias
+43. Mega Noticias
     - Año de creacion: 1990
     - Fundador: Claro Group
     - URL: www.meganoticias.cl
@@ -372,7 +372,7 @@
     - Xpath: 
     - Ubicacion: Santiago
 
-42. T13 noticias
+44. T13 noticias
     - Año de creacion: 1970
     - Fundador: Pontificia Universidad Católica de Chile
     - URL: www.t13.cl
