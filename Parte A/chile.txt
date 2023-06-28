@@ -1,4 +1,9 @@
-1. 
+1. The Clinic
+   -Año de creacion: 1998
+   -URL: https://www.theclinic.cl/
+   -Cobertura: Nacional
+   -Categoria: ["nacional"]
+   -Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
 
 2. El Mercurio
    - Año de creación: 1827
@@ -45,8 +50,12 @@
    - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
    - Ubicación: Santiago
 
-7. 
-
+7. La Segunda
+   -Año de creacion: 1931
+   -URL: http://www.lasegunda.com/
+   - Cobertura: Nacional e internacional
+   - Categoría: ["nacional", "política", "opinión"]
+   - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
 8. Publimetro
    - Año de creación: 1995
    - Fundador: Per Anderson, Robert Braunerhielm y Monica Anderson
@@ -74,7 +83,12 @@
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
     - Ubicación: Santiago
 
-11. 
+11. Diario Financiero
+   -Año de creacion: 1988
+   -URL: https://www.df.cl/
+   -Cobertura: Nacional
+   -Categoria: ["nacional","economia","finanzas","política","sociedad"]
+   -Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
     
 12. CNN Chile
     - Año de creación: 2008
@@ -103,9 +117,20 @@
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
     - Ubicación: Santiago
 
-15. 
+15. El Siglo
+   -Año de creacion: 1940
+   -URL: https://elsiglo.cl/
+   -Cobertura: Nacional
+   -Categoria: ["nacional","politico"]
+   -Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
 
-16. 
+16. Las Ultimas Noticias
+   -Año de creacion: 1902
+   -URL: https://www.lun.com/lunmobileiiphone//homesilde.aspx#pagina-1/
+   -Cobertura: Nacional
+   -Categoria: ["nacional","prensa rosa","farandula","política","sociedad"]
+   -Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+
 
 17. El Austral de Osorno
     - Año de creación: 1982
@@ -134,7 +159,12 @@
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
     - Ubicación: Temuco
 
-20. 
+20. La Nacion
+   -Año de creacion: 1917
+   -URL: https://www.lanacion.cl/
+   -Cobertura: Nacional
+   -Categoria: ["nacional","generalista"]
+   -Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
     
 21. La Estrella de Arica
     - Año de creación: 1976
@@ -315,3 +345,6 @@
     - Categoría: ["regional", "nacional", "sociedad"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
     - Ubicacion: Chillan
+
+
+
