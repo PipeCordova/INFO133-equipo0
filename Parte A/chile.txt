@@ -373,4 +373,11 @@
     - Categoria: 
     - Xpath: 
     - Ubicacion: Santiago
-    
+43. La Hora
+   - Año de creacion: 1997
+    - Fundador: Copesa, S. A.
+    - URL: http://www.lahora.cl/
+    - Cobertura: Nacional
+    - Categoria: 
+    - Xpath: 
+    - Ubicacion: Santiago
