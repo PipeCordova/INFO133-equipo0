@@ -381,11 +381,59 @@
     - Xpath: 
     - Ubicacion: Santiago
 
+45. RedGol
+    - Año de creacion: 2015
+    - Fundador: Luis Marambio
+    - URL: redgol.cl
+    - Cobertura: Nacional
+    - Categoria: Deportes
+    - Xpath: 
+    - Ubicacion: Santiago
+    
+46. La Estrella de Valparaíso
+    - Año de creacion: 1921
+    - Fundador: Luis Marambio
+    - URL: diariolaquinta.cl
+    - Cobertura: Nacional
+    - Categoria: ["regional", "nacional", "sociedad"]
+    - Xpath: 
+    - Ubicacion: Valparaíso
 
+47. El Observador(Chile)
+    - Año de creacion: 1970
+    - Fundador: Roberto Silva Bijit
+    - URL: www.observador.cl
+    - Cobertura: Nacional
+    - Categoria: ["regional", "nacional", "sociedad"]
+    - Xpath: 
+    - Ubicacion: Quillota
+    
+48. El Día(Chile)
+    - Año de creacion: 1944
+    - Fundador: Pedro Vega Gutiérrez
+    - URL: www.diarioeldia.cl
+    - Cobertura: Nacional
+    - Categoria: ["regional", "nacional", "sociedad"]
+    - Xpath: 
+    - Ubicacion: La Serena
+    
+ 49. TNT Sport
+    - Año de creacion: 2003
+    - Fundador: Warner Bros. Discovery Americas
+    - URL: tntsports.cl
+    - Cobertura: Nacional
+    - Categoria: ["Deportes"]
+    - Xpath: 
+    - Ubicacion: Santiago
+    
 
-
-
-
-
+ 50. El Líder de Melipilla
+    - Año de creacion: 2002
+    - Fundador: El Mercurio S.A.P.
+    - URL: www.lidermelipilla.cl
+    - Cobertura: Nacional
+    - Categoria: ["regional", "nacional", "sociedad"]
+    - Xpath: 
+    - Ubicacion: Melipilla
 
     
