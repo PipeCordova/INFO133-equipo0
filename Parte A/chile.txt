@@ -346,3 +346,31 @@
     - Categoría: ["regional", "nacional", "sociedad"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
     - Ubicacion: Chillán
+
+41. TVN
+    - Año de creacion: 1969
+    - Fundador: Eduardo Ravani
+    - URL: https://www.tvn.cl/
+    - Cobertura: Nacional
+    - Categoria: 
+    - Xpath: 
+    - Ubicacion: Santiago
+
+41. Mega Noticias
+    - Año de creacion: 1990
+    - Fundador: Claro Group
+    - URL: https://www.meganoticias.cl/
+    - Cobertura: Nacional
+    - Categoria: 
+    - Xpath: 
+    - Ubicacion: Santiago
+
+42. T13 noticias
+    - Año de creacion: 1970
+    - Fundador: Pontificia Universidad Católica de Chile
+    - URL: https://www.t13.cl/
+    - Cobertura: Nacional
+    - Categoria: 
+    - Xpath: 
+    - Ubicacion: Santiago
+    
