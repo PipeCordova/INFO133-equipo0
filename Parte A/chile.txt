@@ -1,9 +1,4 @@
-1. The Clinic
-   -Año de creacion: 1998
-   -URL: https://www.theclinic.cl/
-   -Cobertura: Nacional
-   -Categoria: ["nacional"]
-   -Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+1. 
 
 2. El Mercurio
    - Año de creación: 1827
@@ -50,12 +45,8 @@
    - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
    - Ubicación: Santiago
 
-7. La Segunda
-   -Año de creacion: 1931
-   -URL: http://www.lasegunda.com/
-   - Cobertura: Nacional e internacional
-   - Categoría: ["nacional", "política", "opinión"]
-   - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+7. 
+
 8. Publimetro
    - Año de creación: 1995
    - Fundador: Per Anderson, Robert Braunerhielm y Monica Anderson
@@ -83,12 +74,7 @@
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
     - Ubicación: Santiago
 
-11. Diario Financiero
-   -Año de creacion: 1988
-   -URL: https://www.df.cl/
-   -Cobertura: Nacional
-   -Categoria: ["nacional","economia","finanzas","política","sociedad"]
-   -Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+11. 
     
 12. CNN Chile
     - Año de creación: 2008
@@ -117,20 +103,9 @@
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
     - Ubicación: Santiago
 
-15. El Siglo
-   -Año de creacion: 1940
-   -URL: https://elsiglo.cl/
-   -Cobertura: Nacional
-   -Categoria: ["nacional","politico"]
-   -Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+15. 
 
-16. Las Ultimas Noticias
-   -Año de creacion: 1902
-   -URL: https://www.lun.com/lunmobileiiphone//homesilde.aspx#pagina-1/
-   -Cobertura: Nacional
-   -Categoria: ["nacional","prensa rosa","farandula","política","sociedad"]
-   -Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
-
+16. 
 
 17. El Austral de Osorno
     - Año de creación: 1982
@@ -159,12 +134,7 @@
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
     - Ubicación: Temuco
 
-20. La Nacion
-   -Año de creacion: 1917
-   -URL: https://www.lanacion.cl/
-   -Cobertura: Nacional
-   -Categoria: ["nacional","generalista"]
-   -Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+20. 
     
 21. La Estrella de Arica
     - Año de creación: 1976
@@ -223,7 +193,7 @@
 27. La Prensa Austral
     - Año de creación: 1894
     - Fundador: Juan Bautista Contardi
-    - URL: https://laprensaaustral.cl/
+    - URL: laprensaaustral.cl
     - Cobertura: Regional (Punta Arenas)
     - Categoría: ["regional", "nacional", "deportes"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
@@ -232,7 +202,7 @@
 28. El Pingüino
     - Año de creación: 1956
     - Fundador: Guido Vallejos
-    - URL: https://elpinguino.com/
+    - URL: elpinguino.com
     - Cobertura: Regional (Punta Arenas)
     - Categoría: ["regional", "nacional", "cultura"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
@@ -241,7 +211,7 @@
 29. El Divisadero
     - Año de creación: 1994
     - Fundador: Manuel Rafael Ahumada Lagos
-    - URL: https://www.eldivisadero.cl/home
+    - URL: www.eldivisadero.cl
     - Cobertura: Regional (Aysén)
     - Categoría: ["regional", "nacional", "política"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
@@ -250,7 +220,7 @@
 30. El Líder de San Antonio
     - Año de creación: 1988
     - Fundador: Manuel Mejías Yáñez
-    - URL: https://www.lidersanantonio.cl/
+    - URL: www.lidersanantonio.cl
     - Cobertura: Regional (San Antonio)
     - Categoría: ["regional", "nacional", "economía"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
@@ -259,16 +229,16 @@
 31. La Prensa de Curicó
     - Año de creación: 1886
     - Fundador: Luis, Erasmo y Froilán Morán Aliaga
-    - URL: https://new.diariolaprensa.cl/
+    - URL: new.diariolaprensa.cl
     - Cobertura: Regional (Curicó)
     - Categoría: ["regional", "nacional", "economía"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
-    - Ubicacion: Curico
+    - Ubicacion: Curicó
 
 32. El Centro
     - Año de creación: 1989
     - Fundador: Familia Aldana Norambuena
-    - URL: https://www.diarioelcentro.cl/
+    - URL: www.diarioelcentro.cl
     - Cobertura: Regional (Talca)
     - Categoría: ["regional", "nacional", "deportes"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
@@ -277,7 +247,7 @@
 33. El Día de La Serena
     - Año de creación: 1944
     - Fundador: Pedro Vega Gutiérrez
-    - URL: https://www.diarioeldia.cl/
+    - URL: www.diarioeldia.cl
     - Cobertura: Regional (La Serena)
     - Categoría: ["regional", "nacional", "cultura"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
@@ -286,7 +256,7 @@
 34. La Región de Coquimbo
     - Año de creación: 1879
     - Fundador: Bernardo Ossandón
-    - URL: https://www.diariolaregion.cl
+    - URL: www.diariolaregion.cl
     - Cobertura: Regional (Coquimbo)
     - Categoría: ["regional", "nacional", "política"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
@@ -295,7 +265,7 @@
 35. El Ovallino
     - Año de creación: 1989
     - Fundador: Mario Banic Illanes
-    - URL: http://www.elovallino.cl/
+    - URL: www.elovallino.cl
     - Cobertura: Regional (Ovalle)
     - Categoría: ["regional", "nacional", "sociedad"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
@@ -304,7 +274,7 @@
 36. El Llanquihue
     - Año de creación: 1885
     - Fundador: Abdón Cifuentes
-    - URL: https://www.ellanquihue.cl
+    - URL: www.ellanquihue.cl
     - Cobertura: Regional (Puerto Montt)
     - Categoría: ["regional", "nacional", "economía"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
@@ -313,7 +283,7 @@
 37. La Estrella de Concepción
     - Año de creación: 1995
     - Fundador: Diario El Sur S.A.
-    - URL: https://www.estrellaconcepcion.cl
+    - URL: www.estrellaconcepcion.cl
     - Cobertura: Regional (Concepción)
     - Categoría: ["regional", "nacional", "deportes"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
@@ -322,16 +292,16 @@
 38. El Sur de Concepción
     - Año de creación: 1882
     - Fundador: Juan Castellón Larenas
-    - URL: https://www.elsur.cl/
+    - URL: www.elsur.cl
     - Cobertura: Regional (Concepción)
     - Categoría: ["regional", "nacional", "cultura"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
-    - Ubicacion: Concepcion
+    - Ubicacion: Concepción
 
 39. La Tribuna de Los Ángeles
     - Año de creación: 1958
     - Fundador: Domingo Contreras Quintana
-    - URL: https://www.latribuna.cl/
+    - URL: www.latribuna.cl
     - Cobertura: Regional (Los Ángeles)
     - Categoría: ["regional", "nacional", "política"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
@@ -340,11 +310,8 @@
 40. La Discusión de Chillán
     - Año de creación: 1870
     - Fundador: Juan Ignacio Montenegro
-    - URL: https://www.ladiscusion.cl/
+    - URL: www.ladiscusion.cl
     - Cobertura: Regional (Chillán)
     - Categoría: ["regional", "nacional", "sociedad"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
-    - Ubicacion: Chillan
-
-
-
+    - Ubicacion: Chillán
