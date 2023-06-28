@@ -1,362 +1,317 @@
-
-1. PaginaSiete
-   - Año de creación: 2010
-   - URL: https://www.paginasiete.bo/
-   - Cobertura: Internacional
-   - Categoría: ["nacional", "seguridad", "economia"]
-   - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+1. 
 
 2. El Mercurio
    - Año de creación: 1827
-   - URL: https://www.elmercurio.com/
+   - Fundador: Agustín Edwards Mac-Clure
+   - URL: digital.elmercurio.com
    - Cobertura: Nacional e internacional
    - Categoría: ["nacional", "economía", "política"]
    - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+   - Ubicación: Santiago
 
 3. La Tercera
    - Año de creación: 1950
-   - URL: https://www.latercera.com/
+   - Fundador: Familia Picó Cañas
+   - URL: www.latercera.com
    - Cobertura: Nacional e internacional
    - Categoría: ["nacional", "economía", "cultura"]
    - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+   - Ubicación: Santiago
 
 4. Emol
    - Año de creación: 1999
-   - URL: https://www.emol.com/
+   - Fundador: Agustín Edwards Eastman
+   - URL: www.emol.com
    - Cobertura: Nacional e internacional
    - Categoría: ["nacional", "economía", "deportes"]
    - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+   - Ubicación: Santiago
 
 5. La Cuarta
    - Año de creación: 1984
-   - URL: https://www.lacuarta.com/
+   - Fundador: Diozel Pérez Vergara
+   - URL: www.lacuarta.com
    - Cobertura: Nacional
    - Categoría: ["nacional", "farándula", "deportes"]
    - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+   - Ubicación: Santiago
 
 6. El Mostrador
    - Año de creación: 2000
-   - URL: https://www.elmostrador.cl/
+   - Fundador: La Plaza S.A.
+   - URL: www.elmostrador.cl
    - Cobertura: Nacional e internacional
    - Categoría: ["nacional", "política", "opinión"]
    - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+   - Ubicación: Santiago
 
-7. BioBioChile
-   - Año de creación: 2008
-   - URL: https://www.biobiochile.cl/
-   - Cobertura: Nacional
-   - Categoría: ["nacional", "regional", "deportes"]
-   - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+7. 
 
 8. Publimetro
-   - Año de creación: 2000
-   - URL:
-
- https://www.publimetro.cl/
+   - Año de creación: 1995
+   - Fundador: Per Anderson, Robert Braunerhielm y Monica Anderson
+   - URL: www.publimetro.cl
    - Cobertura: Nacional
    - Categoría: ["nacional", "espectáculos", "deportes"]
    - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+   - Ubicación: Santiago
 
 9. Cooperativa
    - Año de creación: 1935
-   - URL: https://www.cooperativa.cl/
+   - Fundador: Compañía Chilena de Comunicaciones 
+   - URL: www.cooperativa.cl
    - Cobertura: Nacional e internacional
    - Categoría: ["nacional", "deportes", "opinión"]
    - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+   - Ubicación: Santiago
 
 10. El Dinamo
     - Año de creación: 2010
-    - URL: https://www.eldinamo.cl/
+    - Fundador: Juan José Santa Cruz, Sebastián Sichel y Mariana Aylwin
+    - URL: www.eldinamo.cl
     - Cobertura: Nacional
     - Categoría: ["nacional", "política", "sociedad"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+    - Ubicación: Santiago
 
-11. El Mostrador
-    - Año de creación: 2000
-    - URL: https://www.elmostrador.cl/
-    - Cobertura: Nacional e internacional
-    - Categoría: ["nacional", "política", "opinión"]
-    - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+11. 
     
 12. CNN Chile
     - Año de creación: 2008
-    - URL: https://www.cnnchile.com/
+    - Fundador: Grupo Bethia
+    - URL: www.cnnchile.com
     - Cobertura: Nacional e internacional
     - Categoría: ["nacional", "internacional", "economía"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+    - Ubicación: Santiago
 
 13. El Desconcierto
-    - Año de creación: 2011
-    - URL: https://www.eldesconcierto.cl/
+    - Año de creación: 2012
+    - Fundador: Rodrigo Ruiz
+    - URL: www.eldesconcierto.cl
     - Cobertura: Nacional
     - Categoría: ["nacional", "cultura", "opinión"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+    - Ubicación: Santiago
 
 14. El Ciudadano
     - Año de creación: 2007
-    - URL: https://www.elciudadano.com/
+    - Fundador: Patricio Mery Bell, Víctor Herrero y Felipe Portales
+    - URL: www.elciudadano.com
     - Cobertura: Nacional e internacional
     - Categoría: ["nacional", "sociedad", "medio ambiente"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+    - Ubicación: Santiago
 
-15. La Nación
-    - Año de creación: 1917
-    - URL: https://www.lanacion.cl/
-    - Cobertura: Nacional
-    - Categoría: ["nacional", "opinión", "deportes"]
-    - Xpath: ["//div[@class=`headline`]//a/@href", "//div//
+15. 
 
-h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
-
-16. El Tipógrafo
-    - Año de creación: 1920
-    - URL: https://eltipografo.cl/
-    - Cobertura: Nacional
-    - Categoría: ["nacional", "economía", "cultura"]
-    - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+16. 
 
 17. El Austral de Osorno
-    - Año de creación: 1913
-    - URL: https://www.australosorno.cl/
+    - Año de creación: 1982
+    - Fundador: Sociedad Periodística Araucanía S.A.
+    - URL: www.australosorno.cl
     - Cobertura: Regional (Osorno)
     - Categoría: ["regional", "nacional", "deportes"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+    - Ubicación: Osorno
     
 18. El Austral de Valdivia
-    - Año de creación: 1967
-    - URL: https://www.australvaldivia.cl/
+    - Año de creación: 1982
+    - Fundador: Sociedad Periodística Araucanía S.A
+    - URL: www.australvaldivia.cl
     - Cobertura: Regional (Valdivia)
     - Categoría: ["regional", "nacional", "cultura"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+    - Ubicación: Valdivia
 
 19. El Austral de Temuco
-    - Año de creación: 1928
-    - URL: https://www.australtemuco.cl/
+    - Año de creación: 1916
+    - Fundador: Sociedad Periodística Araucanía S.A
+    - URL: www.australtemuco.cl
     - Cobertura: Regional (Temuco)
     - Categoría: ["regional", "nacional", "política"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+    - Ubicación: Temuco
 
-20. El Austral de Los Ríos
-    - Año de creación: 2008
-    - URL: https://www.australosrios.cl/
-    - Cobertura: Regional (Los Ríos)
-    - Categoría: ["regional", "nacional", "sociedad"]
-    - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+20. 
     
 21. La Estrella de Arica
-    - Año de creación: 1884
+    - Año de creación: 1976
+    - Fundador: Agustín Edwards Eastman
     - URL: https://www.estrellaarica.cl/
     - Cobertura: Regional (Arica)
     - Categoría: ["regional", "nacional", "economía"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+    - Ubicación: Arica
 
 22. La Estrella de Iquique
-    - Año de creación: 1884
+    - Año de creación: 1966
+    - Fundador: Agustín Edwards Eastman
     - URL: https://www.estrellaiquique.cl/
     - Cobertura: Regional (Iquique)
     - Categoría: ["regional", "nacional", "deportes"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+    - Ubicación: Iquique
 
-23. La Est
-
-rella de Loa
-    - Año de creación: 1929
-    - URL: https://www.estrellaloa.cl/
+23. La Estrella de Loa
+    - Año de creación: 1979
+    - Fundador: Empresa Periodística El Norte S.A
+    - URL: www.estrellaloa.cl
     - Cobertura: Regional (Calama)
     - Categoría: ["regional", "nacional", "cultura"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+    - Ubicación: Calama
 
 24. La Estrella de Tocopilla
-    - Año de creación: 1929
-    - URL: https://www.estrellatocopilla.cl/
+    - Año de creación: 1924
+    - Fundador: Empresa Periodística El Norte S.A
+    - URL: www.estrellatocopilla.cl
     - Cobertura: Regional (Tocopilla)
     - Categoría: ["regional", "nacional", "política"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+    - Ubicación: Tocopilla
     
-25. El Diario de Antofagasta
+25. La Estrella de Antofagasta
     - Año de creación: 1883
-    - URL: https://www.diarioantofagasta.cl/
+    - Fundador: Sociedad Chilena de Publicaciones y Comercio S.A
+    - URL: www.diarioantofagasta.cl
     - Cobertura: Regional (Antofagasta)
     - Categoría: ["regional", "nacional", "sociedad"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+    - Ubicación: Antofagasta
 
 26. El Diario de Atacama
-    - Año de creación: 1898
-    - URL: https://www.diarioatacama.cl/
+    - Año de creación: 1970
+    - Fundador: Antonio Puga Rodríguez
+    - URL: www.diarioatacama.cl
     - Cobertura: Regional (Copiapó)
     - Categoría: ["regional", "nacional", "economía"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
-    
-27. El Diario Austral de Puerto Montt
-    - Año de creación: 1957
-    - URL: https://www.diarioaustral.cl/
-    - Cobertura: Regional (Puerto Montt)
-    - Categoría: ["regional", "nacional", "deportes"]
-    - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+    - Ubicación: Atacama
 
-28. El Diario Austral de Valdivia
-    - Año de creación: 1967
-    - URL: https://www.diarioaustralvaldivia.cl/
-    - Cobertura: Regional (Valdivia)
-    - Categoría: ["regional", "nacional", "cultura"]
-    - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
-
-29. El Diario Austral de Osorno
-    - Año de creación: 1913
-    - URL: https://www.diarioaustralosorno.cl/
-    - Cobertura: Regional (Osorno)
-    - Categoría: ["regional", "nacional", "política"]
-    - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
-
-30. El Diario Austral de Tem
-
-uco
-    - Año de creación: 1928
-    - URL: https://www.diarioaustraltemuco.cl/
-    - Cobertura: Regional (Temuco)
-    - Categoría: ["regional", "nacional", "sociedad"]
-    - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
-
-31. El Diario Austral de Los Ríos
-    - Año de creación: 2008
-    - URL: https://www.diarioaustralosrios.cl/
-    - Cobertura: Regional (Los Ríos)
-    - Categoría: ["regional", "nacional", "economía"]
-    - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
-    
-32. La Prensa Austral
-    - Año de creación: 1969
-    - URL: https://www.laprensaaustral.cl/
+27. La Prensa Austral
+    - Año de creación: 1894
+    - Fundador: Juan Bautista Contardi
+    - URL: https://laprensaaustral.cl/
     - Cobertura: Regional (Punta Arenas)
     - Categoría: ["regional", "nacional", "deportes"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+    - Ubicacion: Punta Arenas
 
-33. El Pingüino
-    - Año de creación: 1963
+28. El Pingüino
+    - Año de creación: 1956
+    - Fundador: Guido Vallejos
     - URL: https://elpinguino.com/
     - Cobertura: Regional (Punta Arenas)
     - Categoría: ["regional", "nacional", "cultura"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+    - Ubicacion: Punta Arenas
 
-34. El Divisadero
-    - Año de creación: 2005
-    - URL: https://www.eldivisadero.cl/
+29. El Divisadero
+    - Año de creación: 1994
+    - Fundador: Manuel Rafael Ahumada Lagos
+    - URL: https://www.eldivisadero.cl/home
     - Cobertura: Regional (Aysén)
     - Categoría: ["regional", "nacional", "política"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
-    
-35. El Ovallino
-    - Año de creación: 1928
-    - URL: https://www.elovallino.cl/
-    - Cobertura: Regional (Ovalle)
-    - Categoría: ["regional", "nacional", "sociedad"]
-    - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
-
-36. El Líder de San Antonio
-    - Año de creación: 1980
-    - URL: https://www.ellidersanantonio.cl/
+    - Ubicacion: Coyhaique 
+   
+30. El Líder de San Antonio
+    - Año de creación: 1988
+    - Fundador: Manuel Mejías Yáñez
+    - URL: https://www.lidersanantonio.cl/
     - Cobertura: Regional (San Antonio)
     - Categoría: ["regional", "nacional", "economía"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+    - Ubicaion: San Antonio
 
-37. El Líder de Melipilla
-    - Año de creación: 1968
-
-
-    - URL: https://www.ellidermelipilla.cl/
-    - Cobertura: Regional (Melipilla)
-    - Categoría: ["regional", "nacional", "deportes"]
-    - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
-
-38. El Líder de Chiloé
-    - Año de creación: 1992
-    - URL: https://www.elliderdechiloe.cl/
-    - Cobertura: Regional (Chiloé)
-    - Categoría: ["regional", "nacional", "cultura"]
-    - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
-
-39. El Líder de Bío-Bío
-    - Año de creación: 1990
-    - URL: https://www.elliderdebiobio.cl/
-    - Cobertura: Regional (Bío-Bío)
-    - Categoría: ["regional", "nacional", "política"]
-    - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
-
-40. El Líder de San Fernando
-    - Año de creación: 1988
-    - URL: https://www.ellidersanfernando.cl/
-    - Cobertura: Regional (San Fernando)
-    - Categoría: ["regional", "nacional", "sociedad"]
-    - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
-
-41. La Prensa de Curicó
-    - Año de creación: 1924
-    - URL: https://www.laprensa.cl/
+31. La Prensa de Curicó
+    - Año de creación: 1886
+    - Fundador: Luis, Erasmo y Froilán Morán Aliaga
+    - URL: https://new.diariolaprensa.cl/
     - Cobertura: Regional (Curicó)
     - Categoría: ["regional", "nacional", "economía"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+    - Ubicacion: Curico
 
-42. El Centro de Talca
-    - Año de creación: 1928
-    - URL: https://www.elcentro.cl/
+32. El Centro
+    - Año de creación: 1989
+    - Fundador: Familia Aldana Norambuena
+    - URL: https://www.diarioelcentro.cl/
     - Cobertura: Regional (Talca)
     - Categoría: ["regional", "nacional", "deportes"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+    - Ubicacion: Talca
 
-43. El Día de La Serena
-    - Año de creación: 1884
+33. El Día de La Serena
+    - Año de creación: 1944
+    - Fundador: Pedro Vega Gutiérrez
     - URL: https://www.diarioeldia.cl/
     - Cobertura: Regional (La Serena)
     - Categoría: ["regional", "nacional", "cultura"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+    - Ubicacion: La Serena
 
-44. La Región de Coquimbo
-    - Año de creación: 1922
-    - URL: https://
-
-www.laregion.cl/
+34. La Región de Coquimbo
+    - Año de creación: 1879
+    - Fundador: Bernardo Ossandón
+    - URL: https://www.diariolaregion.cl
     - Cobertura: Regional (Coquimbo)
     - Categoría: ["regional", "nacional", "política"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+    - Ubicacion: Coquimbo
 
-45. El Ovallito
-    - Año de creación: 1959
-    - URL: https://www.elovallito.cl/
+35. El Ovallino
+    - Año de creación: 1989
+    - Fundador: Mario Banic Illanes
+    - URL: http://www.elovallino.cl/
     - Cobertura: Regional (Ovalle)
     - Categoría: ["regional", "nacional", "sociedad"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+    - Ubicacion: Ovalle
 
-46. El Llanquihue
-    - Año de creación: 1882
-    - URL: https://www.ellanquihue.cl/
+36. El Llanquihue
+    - Año de creación: 1885
+    - Fundador: Abdón Cifuentes
+    - URL: https://www.ellanquihue.cl
     - Cobertura: Regional (Puerto Montt)
     - Categoría: ["regional", "nacional", "economía"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+    - Ubicacion: Puerto Montt
 
-47. La Estrella de Concepción
-    - Año de creación: 1980
-    - URL: https://www.laestrellaconcepcion.cl/
+37. La Estrella de Concepción
+    - Año de creación: 1995
+    - Fundador: Diario El Sur S.A.
+    - URL: https://www.estrellaconcepcion.cl
     - Cobertura: Regional (Concepción)
     - Categoría: ["regional", "nacional", "deportes"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+    - Ubicacion: Concepcion
 
-48. El Sur de Concepción
-    - Año de creación: 1953
+38. El Sur de Concepción
+    - Año de creación: 1882
+    - Fundador: Juan Castellón Larenas
     - URL: https://www.elsur.cl/
     - Cobertura: Regional (Concepción)
     - Categoría: ["regional", "nacional", "cultura"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+    - Ubicacion: Concepcion
 
-49. La Tribuna de Los Ángeles
-    - Año de creación: 1929
+39. La Tribuna de Los Ángeles
+    - Año de creación: 1958
+    - Fundador: Domingo Contreras Quintana
     - URL: https://www.latribuna.cl/
     - Cobertura: Regional (Los Ángeles)
     - Categoría: ["regional", "nacional", "política"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+    - Ubicacion: Los Angeles
 
-50. La Discusión de Chillán
-    - Año de creación: 1896
+40. La Discusión de Chillán
+    - Año de creación: 1870
+    - Fundador: Juan Ignacio Montenegro
     - URL: https://www.ladiscusion.cl/
     - Cobertura: Regional (Chillán)
     - Categoría: ["regional", "nacional", "sociedad"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+    - Ubicacion: Chillan
