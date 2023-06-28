@@ -1,9 +1,10 @@
 1. The Clinic
-   -Año de creacion: 1998
-   -URL: https://www.theclinic.cl/
-   -Cobertura: Nacional
-   -Categoria: ["nacional"]
-   -Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+   - Año de creacion: 1998
+   - URL: www.theclinic.cl
+   - Cobertura: Nacional
+   - Categoria: ["nacional"]
+   - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+   - Ubicación: Santiago
 
 2. El Mercurio
    - Año de creación: 1827
@@ -51,11 +52,12 @@
    - Ubicación: Santiago
 
 7. La Segunda
-   -Año de creacion: 1931
-   -URL: http://www.lasegunda.com/
+   - Año de creacion: 1931
+   - URL: www.lasegunda.com
    - Cobertura: Nacional e internacional
    - Categoría: ["nacional", "política", "opinión"]
-   - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"] 
+   - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+   - Ubicación: Santiago
 
 8. Publimetro
    - Año de creación: 1995
@@ -85,11 +87,12 @@
     - Ubicación: Santiago
 
 11. Diario Financiero
-   -Año de creacion: 1988
-   -URL: https://www.df.cl/
-   -Cobertura: Nacional
-   -Categoria: ["nacional","economia","finanzas","política","sociedad"]
-   -Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+   - Año de creacion: 1988
+   - URL: www.df.cl
+   - Cobertura: Nacional
+   - Categoria: ["nacional","economia","finanzas","política","sociedad"]
+   - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+   - Ubicación: Santiago
     
 12. CNN Chile
     - Año de creación: 2008
@@ -119,18 +122,20 @@
     - Ubicación: Santiago
 
 15. El Siglo
-   -Año de creacion: 1940
-   -URL: https://elsiglo.cl/
-   -Cobertura: Nacional
-   -Categoria: ["nacional","politico"]
-   -Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+   - Año de creacion: 1940
+   - URL: elsiglo.cl
+   - Cobertura: Nacional
+   - Categoria: ["nacional","politico"]
+   - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+   - Ubicación: Santiago
 
 16. Las Ultimas Noticias
-   -Año de creacion: 1902
-   -URL: https://www.lun.com/lunmobileiiphone//homesilde.aspx#pagina-1/
-   -Cobertura: Nacional
-   -Categoria: ["nacional","prensa rosa","farandula","política","sociedad"]
-   -Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+   - Año de creacion: 1902
+   - URL: www.lun.com
+   - Cobertura: Nacional
+   - Categoria: ["nacional","prensa rosa","farandula","política","sociedad"]
+   - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+   - Ubicación: Santiago
 
 17. El Austral de Osorno
     - Año de creación: 1982
@@ -160,17 +165,19 @@
     - Ubicación: Temuco
 
 20. La Nacion
-   -Año de creacion: 1917
-   -URL: https://www.lanacion.cl/
-   -Cobertura: Nacional
-   -Categoria: ["nacional","generalista"]
-   -Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+   - Año de creacion: 1917
+   - Fundador: Eliodoro Yáñez Ponce de León
+   - URL: www.lanacion.cl
+   - Cobertura: Nacional
+   - Categoria: ["nacional","generalista"]
+   - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
+   - Ubicación: Santiago
     
     
 21. La Estrella de Arica
     - Año de creación: 1976
     - Fundador: Agustín Edwards Eastman
-    - URL: https://www.estrellaarica.cl/
+    - URL: www.estrellaarica.cl
     - Cobertura: Regional (Arica)
     - Categoría: ["regional", "nacional", "economía"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
@@ -179,7 +186,7 @@
 22. La Estrella de Iquique
     - Año de creación: 1966
     - Fundador: Agustín Edwards Eastman
-    - URL: https://www.estrellaiquique.cl/
+    - URL: www.estrellaiquique.cl
     - Cobertura: Regional (Iquique)
     - Categoría: ["regional", "nacional", "deportes"]
     - Xpath: ["//div[@class=`headline`]//a/@href", "//div//h1", "//div[@class=`paragraph texto`]//p", "//div[@class=`date`]"]
@@ -359,7 +366,7 @@
 41. Mega Noticias
     - Año de creacion: 1990
     - Fundador: Claro Group
-    - URL: https://www.meganoticias.cl/
+    - URL: www.meganoticias.cl
     - Cobertura: Nacional
     - Categoria: 
     - Xpath: 
@@ -373,11 +380,4 @@
     - Categoria: 
     - Xpath: 
     - Ubicacion: Santiago
-43. La Hora
-   - Año de creacion: 1997
-    - Fundador: Copesa, S. A.
-    - URL: http://www.lahora.cl/
-    - Cobertura: Nacional
-    - Categoria: 
-    - Xpath: 
-    - Ubicacion: Santiago
+    
