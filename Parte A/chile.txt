@@ -357,7 +357,7 @@
 41. TVN
     - Año de creacion: 1969
     - Fundador: Eduardo Ravani
-    - URL: https://www.tvn.cl/
+    - URL: www.tvn.cl
     - Cobertura: Nacional
     - Categoria: 
     - Xpath: 
@@ -375,7 +375,7 @@
 42. T13 noticias
     - Año de creacion: 1970
     - Fundador: Pontificia Universidad Católica de Chile
-    - URL: https://www.t13.cl/
+    - URL: www.t13.cl
     - Cobertura: Nacional
     - Categoria: 
     - Xpath: 
