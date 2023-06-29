@@ -1,0 +1,1059 @@
+1. - Nombre: Diario Concepción
+   - Ubicación: Concepción, Region BioBio, Chile
+   - Año fundación: 2008
+   - Cobertura: Nacional
+   - Nombre fundador(es): Universidad de Concepción y Copesa
+   - Sitio web: https://www.diarioconcepcion.cl/
+   - Cuenta IG: diarioconcepcion
+   - Cuenta FB: Diario Concepcion
+   - Cuenta TW: Diario Concepcion
+   - Seguidores IG: 65900
+   - Seguidores FB: 67000
+   - Seguidores TW: 66700
+   - Categoría(s): Nacional, Política, Economía, Deportes, Cultura, Ciencia y Socidad, Humanidades
+   - URL principal categoria: www.diarioconcepcion.cl/politica
+   - URL ejemplo categoria: https://www.diarioconcepcion.cl/politica/2023/06/28/presidente-gabriel-boric-en-alto-biobio-comuna-dispondra-de-helicoptero-de-la-armada.html
+   - XPATH enlances noticias:
+   - URL noticia: https://www.diarioconcepcion.cl/ciudad/2023/06/28/advierten-peak-respiratorio-de-adultos-y-ninos-tras-inundaciones-en-la-region.html
+   - Xpath fecha: //time/span/text()
+   - Xpath título: body/div[7]/main/div[1]/section/div[1]/div[1]/h1/text()
+   - Xpath contenido:
+   
+
+2. - Nombre: 
+   - Ubicación: 
+   - Año fundación: 
+   - Cobertura: 
+   - Fundador(es): 
+   - Sitio web: 
+   - Cuenta IG: 
+   - Cuenta FB:
+   - Cuenta TW:
+   - Seguidores IG: 
+   - Seguidores FB:
+   - Seguidores TW:
+   - Categoría(s): 
+   - URL principal categoria:
+   - URL ejemplo categoria: https:
+   - XPATH enlances noticias:
+   - URL noticia: 
+   - Xpath fecha:
+   - Xpath título:
+   - Xpath contenido:
+    
+   
+
+3. - Nombre: La Tercera
+   - Ubicación: Santiago, Región Metropolitana, Chile
+   - Año fundación: 1950
+   - Cobertura: Nacional e internacional
+   - Fundador(es): Familia Picó Cañas
+   - Sitio web: https://www.latercera.com/
+   - Cuenta IG: laterceracom
+   - Cuenta FB: La Tercera
+   - Cuenta TW: La Tercera
+   - Seguidores IG: 465000
+   - Seguidores FB: 4300000
+   - Seguidores TW: 2100000
+   - Categoría(s): Nacional, Política, Mundo, Opinión
+   - URL principal categoria: https://www.latercera.com/canal/politica/
+   - URL ejemplo categoria: https://www.latercera.com/politica/noticia/cronologia-el-giro-en-180-del-senador-latorre-en-el-caso-que-remece-a-rd/YHVTDYNO45HYNJFORQRTZQPDZQ/
+   - XPATH enlances noticias:
+   - URL noticia: https://www.latercera.com/la-tercera-pm/noticia/31-millones-para-campana-del-apruebo-consejo-para-la-transparencia-envia-al-ministerio-publico-nuevos-antecedentes-sobre-aportes-a-democracia-viva/A3ISKUCKOREBDL3JXH5Y6ZV6UQ/
+   - Xpath fecha: //*[@id='fusion-app']/div[1]/section/article/header/div/div[2]/div/time/small/b/text()
+   - Xpath título: //*[@id='fusion-app']/div[1]/section/article/header/div/div[1]/h1/div/text()
+   - Xpath contenido:
+ 
+
+4. - Nombre: Emol
+   - Ubicación: Santiago, Región Metropolitana, Chile
+   - Año fundación: 1999
+   - Cobertura: Nacional e internacional
+   - Fundador(es): Agustín Edwards Eastman
+   - Sitio web: https://www.emol.com/
+   - Cuenta IG: emolcom
+   - Cuenta FB:
+   - Cuenta TW:
+   - Seguidores IG: 71300
+   - Seguidores FB:
+   - Seguidores TW:
+   - Categoría(s): Economía, Deportes, Espectáculos, Tendencias, Autos, Servicios
+   - URL principal categoria: https://www.emol.com/deportes/
+   - URL ejemplo categoria: https://www.emol.com/noticias/Deportes/2023/06/28/1099418/barrios-seyboth-wild-horario-wimbledon.html
+   - XPATH enlances noticias:
+   - URL noticia: https://www.emol.com/noticias/Economia/2023/06/28/1099392/cifras-crecimiento-recaudacion-pacto-fiscal.html
+   - Xpath fecha:
+   - Xpath título: //*[@id="cuDetalle_cuTitular_tituloNoticia"]/text()
+   - Xpath contenido:
+  
+   
+
+5. - Nombre: La Cuarta
+   - Ubicación: Santiago, Región Metropolitana, Chile
+   - Año fundación: 1984
+   - Cobertura: Nacional e internacional
+   - Fundador(es): Diozel Pérez Vergara
+   - Sitio web: https://www.lacuarta.com/
+   - Cuenta IG: lacuartacom
+   - Cuenta FB: La Cuarta
+   - Cuenta TW: La Cuarta
+   - Seguidores IG: 427000
+   - Seguidores FB: 820000
+   - Seguidores TW: 943300
+   - Categoría(s): Crónica, Espectáculos, Deportes, Urbana, Tendencias, Servicios
+   - URL principal categoria: https://www.lacuarta.com/espectaculos/
+   - URL ejemplo categoria: https://www.lacuarta.com/espectaculos/noticia/tras-su-tenso-cruce-con-su-manager-fran-garcia-huidobro-revelo-el-consejo-que-le-dio-a-benjamin-lagos-de-gran-hermano/XJVPXOATDRHFTG6PSS57QDWRBU/
+   - XPATH enlances noticias:
+   - URL noticia: https://www.lacuarta.com/espectaculos/noticia/la-firme-con-priscilla-vargas-creo-que-a-la-sociedad-le-falta-amor-y-tratan-de-proyectarse-en-mi-y-repe/FJBSI3S2CRA7RDAJORJGO3XFSU/
+   - Xpath fecha:
+   - Xpath título:
+   - Xpath contenido:
+ 
+
+6. - Nombre: El Mostrador
+   - Ubicación: Santiago, Región Metropolitana, Chile
+   - Año fundación: 2000
+   - Cobertura: Nacional e internacional
+   - Fundador(es): La Plaza S.A.
+   - Sitio web: https://www.elmostrador.cl/
+   - Cuenta IG: el_mostrador
+   - Cuenta FB: El Mostrador
+   - Cuenta TW: El Mostrador
+   - Seguidores IG: 483000
+   - Seguidores FB: 535000
+   - Seguidores TW: 1900000
+   - Categoría(s): Mercados, Opinión, Multimedia, Cultura, Avisos Legales
+   - URL principal categoria: https://www.elmostrador.cl/cultura/
+   - URL ejemplo categoria: https://www.elmostrador.cl/cultura/2023/06/28/escritora-ucraniana-victoria-amelina-se-encuentra-en-estado-critico-tras-ataque-de-misil-en-pizzeria/
+   - XPATH enlances noticias:
+   - URL noticia: https://www.elmostrador.cl/noticias/pais/2023/06/28/en-ningun-pais-ha-resultado-academico-uc-cuestiona-comision-contra-la-desinformacion-del-gobierno/
+   - Xpath fecha:
+   - Xpath título:
+   - Xpath contenido:
+
+   
+
+7. - Nombre: Puente Alto al Día
+   - Ubicación: Santiago, Región Metropolitana, Chile
+   - Año fundación: 1962
+   - Cobertura: Nacional
+   - Fundador(es): Juan Rojas Maldonado
+   - Sitio web: https://www.puentealtoaldia.com/	
+   - Cuenta IG: puentealtoaldia
+   - Cuenta FB: Puente Alto Al Día
+   - Cuenta TW: Puente Alto Al Día
+   - Seguidores IG: 25800
+   - Seguidores FB: 77000
+   - Seguidores TW: 28600
+   - Categoría(s): Covid-19, Cronica, Policial, Avisos Legales
+   - URL principal categoria: https://www.puentealtoaldia.com/attribution/policial/
+   - URL ejemplo categoria: https://www.puentealtoaldia.com/conchali-hombre-baleado-durante-homenaje-en-memorial-narco-esta-en-riesgo-vital/
+   - XPATH enlances noticias:
+   - URL noticia: https://www.puentealtoaldia.com/municipalidad-de-puente-alto-lanza-campana-para-ir-en-apoyo-a-damnificados-por-sistema-frontal/
+   - Xpath fecha:
+   - Xpath título:
+   - Xpath contenido:
+
+
+8. - Nombre: Publimetro
+   - Ubicación: Santiago, Región Metropolitana, Chile
+   - Año fundación: 1995
+   - Cobertura: Nacional
+   - Fundador(es): Per Anderson, Robert Braunerhielm y Monica Anderson
+   - Sitio web: https://www.publimetro.cl/
+   - Cuenta IG: publimetrochile
+   - Cuenta FB: Publimetro Chile
+   - Cuenta TW: Publimetro
+   - Seguidores IG: 352000
+   - Seguidores FB: 1000000
+   - Seguidores TW: 1200000
+   - Categoría(s): Noticias, Deportes, Entretenimiento, Tecnología, Social, Juegos
+   - URL principal categoria: https://www.publimetro.cl/deportes/
+   - URL ejemplo categoria: https://www.publimetro.cl/deportes/2023/06/28/la-categorica-respuesta-de-marcelo-salas-a-los-jugadores-de-temuco-esta-todo-mezclado-de-mala-forma/
+   - XPATH enlances noticias:
+   - URL noticia: https://www.publimetro.cl/social/2023/06/28/actualizan-estado-de-salud-del-valiente-gatito-que-se-lanzo-al-rio-cachapoal-en-medio-de-las-inundaciones/
+   - Xpath fecha:
+   - Xpath título:
+   - Xpath contenido:
+   
+   
+
+9. - Nombre: Cooperativa
+   - Ubicación: Santiago, Región Metropolitana, Chile
+   - Año fundación: 1935
+   - Cobertura: Nacional e internacional
+   - Fundador(es): Compañía Chilena de Comunicaciones 
+   - Sitio web: https://www.cooperativa.cl/
+   - Cuenta IG: 
+   - Cuenta FB: Cooperativa
+   - Cuenta TW: Cooperativa
+   - Seguidores IG: 
+   - Seguidores FB: 2200000
+   - Seguidores TW:3400000
+   - Categoría(s): País, Regiones, Deportes, Mundo, Opinión, Multimedia, Programas
+   - URL principal categoria: https://opinion.cooperativa.cl/
+   - URL ejemplo categoria: https://opinion.cooperativa.cl/opinion/transportes/sustentabilidad-sobre-rieles-la-oportunidad-de-la-electromovilidad/2023-06-22/112116.html
+   - XPATH enlances noticias:
+   - URL noticia: https://www.cooperativa.cl/noticias/economia/impuestos/ministro-marcel-se-mostro-optimista-sobre-el-avance-de-un-nuevo-pacto/2023-06-28/143656.html
+   - Xpath fecha:
+   - Xpath título:
+   - Xpath contenido:
+   
+
+10. - Nombre: El Dinamo
+    - Ubicación: Santiago, Región Metropolitana, Chile
+    - Año fundación: 2010
+    - Cobertura: Nacional e internacional
+    - Fundador(es): Juan José Santa Cruz, Sebastián Sichel y Mariana Aylwin
+    - Sitio web: https://www.eldinamo.cl/
+    - Cuenta IG: el_dinamo
+    - Cuenta FB: El Dínamo
+    - Cuenta TW: El Dínamo
+    - Seguidores IG: 72800
+    - Seguidores FB: 315000
+    - Seguidores TW: 508900
+    - Categoría(s): País, Política, Educación, Opinión, Entretención, Deportes
+    - URL principal categoria: eldinamo.cl/educacion/
+    - URL ejemplo categoria: https://www.eldinamo.cl/educacion/2023/06/28/colegio-de-profesores-ratifico-paro-nacional-tras-reunion-con-el-mineduc/
+    - XPATH enlances noticias:
+    - URL noticia: https://www.eldinamo.cl/deportes/2023/06/28/los-errores-de-santiago-2023-que-reconoce-mayne-nicholls-y-sus-reparos-a-la-comision-investigadora/
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+   	
+    
+
+11. - Nombre: Diario Financiero
+    - Ubicación: Santiago, Región Metropolitana, Chile
+    - Año fundación: 1988
+    - Cobertura: Nacional e internacional
+    - Fundador(es): 
+    - Sitio web: https://www.df.cl/
+    - Cuenta IG: diariofinanciero
+    - Cuenta FB: Diario Financiero
+    - Cuenta TW: Diario Financiero
+    - Seguidores IG: 292000
+    - Seguidores FB: 224000
+    - Seguidores TW: 295800
+    - Categoría(s): Últimas noticias, Empresas, Mercados, Economía, Opinión, Videos, Podcast, Avisos
+    - URL principal categoria: https://www.df.cl/empresas
+    - URL ejemplo categoria: https://www.df.cl/empresas/industria/wom-eleva-reclamacion-contra-el-gobierno-ante-la-corte-suprema-y-acusa
+    - XPATH enlances noticias:
+    - URL noticia: https://www.df.cl/economia-y-politica/actualidad/chile-day-marcel-destaca-que-el-plan-sobre-el-litio-ha-sido-bien
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+    
+12. - Nombre: CNN Chile
+    - Ubicación: Santiago, Región Metropolitana, Chile
+    - Año fundación: 2008
+    - Cobertura: Nacional e internacional
+    - Fundador(es): Grupo Bethia
+    - Sitio web: https://www.cnnchile.com/
+    - Cuenta IG: cnnchile
+    - Cuenta FB: CNN Chile
+    - Cuenta TW: CNN Chile
+    - Seguidores IG: 1000000
+    - Seguidores FB: 1500000
+    - Seguidores TW: 4000000
+    - Categoría(s): País, Mundo, Economía, Cultura, Opinión, Deportes, Tendencias
+    - URL principal categoria: https://www.cnnchile.com/cultura/
+    - URL ejemplo categoria: cnnchile.com/cultura/madonna-hospitalizada-infeccion-bacteriana-gira-mundial-the-celebration-tour_20230628/
+    - XPATH enlances noticias:
+    - URL noticia: https://www.cnnchile.com/programas-completos/sistema-frontal-proyeccion-invierno-2023_20230628/
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+  
+
+13. - Nombre: El Desconcierto
+    - Ubicación: Santiago, Región Metropolitana, Chile
+    - Año fundación: 2012
+    - Cobertura: Nacional e internacional
+    - Fundador(es): Rodrigo Ruiz
+    - Sitio wen: https://www.eldesconcierto.cl/
+    - Cuenta IG: eldesconcierto
+    - Cuenta FB: El Desconcierto
+    - Cuenta TW: El Desconcierto
+    - Seguidores IG: 424000
+    - Seguidores FB: 423000
+    - Seguidores TW: 474400
+    - Categoría(s): Tendencias y Redes, Opinión, Economía y Emprendimiento, Reportajes, Bienes Comunes, Deportes
+    - URL principal categoria: https://www.eldesconcierto.cl/tendencias/
+    - URL ejemplo categoria: https://www.eldesconcierto.cl/tendencias/2023/06/27/apps-y-juegos-las-tendencias-actuales-que-estan-cambiando-la-forma-de-divertirse.html
+    - XPATH enlances noticias:
+    - URL noticia: https://www.eldesconcierto.cl/nacional/2023/06/28/servel-certifica-fuga-de-mas-de-mil-militantes-del-pdg-en-solo-un-mes-se-iba-a-acabar-luna-de-miel.html
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+
+14. - Nombre: El Ciudadano
+    - Ubicación: Santiago, Región Metropolitana, Chile
+    - Año fundación: 2007
+    - Cobertura: Nacional e internacional
+    - Fundador(es): Patricio Mery Bell, Víctor Herrero y Felipe Portales
+    - Sitio web: https://www.elciudadano.com/
+    - Cuenta IG: el.ciudadano
+    - Cuenta FB: El Ciudadano
+    - Cuenta TW: El Ciudadano
+    - Seguidores IG: 682000
+    - Seguidores FB: 4700000
+    - Seguidores TW: 582800
+    - Categoría(s): Política, Medio Ambiente, Economía, Pueblos, Justicia, Salud, Género, Sociedad, Arte
+    - URL principal categoria: https://www.elciudadano.com/economia/
+    - URL ejemplo categoria: https://www.elciudadano.com/actualidad/hay-o-no-razones-para-subir-precios-de-rubros-agricolas/06/28/
+    - XPATH enlances noticias:
+    - URL noticia: https://www.elciudadano.com/actualidad/cientificos-de-chile-crean-antibiotico-eficaz-para-el-combate-de-bacterias-multirresistentes/06/28/
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+    
+
+15. - Nombre: El Siglo
+    - Ubicación: Santiago, Región Metropolitana, Chile
+    - Año fundación: 1940
+    - Cobertura: Nacional e internacional
+    - Fundador(es): José Luis Córdova y Carmen Mendoza.
+    - Sitio web: https://elsiglo.cl/
+    - Cuenta IG: elsiglochile
+    - Cuenta FB: El Siglo
+    - Cuenta TW: El Siglo
+    - Seguidores IG: 12600
+    - Seguidores FB: 14000
+    - Seguidores TW: 31800
+    - Categoría(s): Pilítica, País, Orbe, Cultura, Análisis, No Deje De Leer, Entrevistas
+    - URL principal categoria: https://elsiglo.cl/category/politica/
+    - URL ejemplo categoria: https://elsiglo.cl/integrante-de-bancada-pc-debe-presidir-la-camara-baja-luis-cuello/
+    - XPATH enlances noticias:
+    - URL noticia: https://elsiglo.cl/salvador-allende-el-nacimiento-de-un-lider-y-luchador-social/
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+  
+
+16. - Nombre: Las Ultimas Noticias
+    - Ubicación: Santiago, Región Metropolitana, Chile
+    - Año fundación: 1902
+    - Cobertura: Nacional e internacional
+    - Fundador(es): Agustín Edwards Mac-Clure
+    - Sitio web: https://www.lun.com/
+    - Cuenta IG: lungram
+    - Cuenta FB: Las Últimas Noticias (LUN)
+    - Cuenta TW: Las Últimas Noticias
+    - Seguidores IG: 482000
+    - Seguidores FB: 620000
+    - Seguidores TW: 267700
+    - Categoría(s): Política, Sociedad, Economía, Pymes, Deportes, Empleo y Educación, Cartas, etc.
+    - URL principal categoria: https://www.lun.com/Pages/NewsDetail.aspx?dt=2023-06-28&EsAviso=0&PaginaId=18&bodyid=0
+    - URL ejemplo categoria: https://www.lun.com/Pages/NewsDetail.aspx?dt=2023-06-28&EsAviso=0&PaginaId=17&bodyid=0
+    - XPATH enlances noticias:
+    - URL noticia: https://www.lun.com/Pages/NewsDetail.aspx?dt=2023-06-28&EsAviso=0&PaginaId=1&bodyid=0
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+  
+
+17. - Nombre: El Rancagüino
+    - Ubicación: Rancagua, Región del Libertador General Bernardo O'Higgins, Chile
+    - Año fundacion: 1915
+    - Cobertura: Nacional e internacional
+    - Fundador(es): Miguel González Navarro
+    - Sitio web: https://www.elrancaguino.cl/
+    - Cuenta IG: diarioelrancaguino
+    - Cuenta FB: El Rancagüino
+    - Cuenta TW: Diario El Rancagüino
+    - Seguidores IG: 38500
+    - Seguidores FB: 71000
+    - Seguidores TW: 59800
+    - Categoría(s): Último Minuto, Deportes, Policial, Comunas, Actualidad, Política, Editorial
+    - URL principal categoria: https://www.elrancaguino.cl/category/politica/
+    - URL ejemplo categoria: https://www.elrancaguino.cl/2023/06/26/proponen-fondo-de-500-millones-de-dolares-para-la-reconstruccion/
+    - XPATH enlances noticias:
+    - URL noticia: https://www.elrancaguino.cl/2023/06/28/delantero-de-lanus-suena-como-posible-refuerzo-de-ohiggins/
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+    
+18. - Nombre: El Cóndor
+    - Ubicación: Santa Cruz, Región del Libertador General Bernardo O'Higgins, Chile
+    - Año fundación: 1917
+    - Cobertura: Nacional
+    - Fundador(es): Adeodato García Valenzuela
+    - Sitio web: https://diariocondor.cl/
+    - Cuenta IG: diarioelcondorsantacruz
+    - Cuenta FB: Diario El Cóndor
+    - Cuenta TW: Diario El Cóndor
+    - Seguidores IG: 2930
+    - Seguidores FB: 45000
+    - Seguidores TW: 335
+    - Categoría(s): Deportes, Covid-19, Emprendedores, Ediciones, Tiempo
+    - URL principal categoria: https://diariocondor.cl/category/emprendedores/
+    - URL ejemplo categoria: https://diariocondor.cl/2021/11/01/entrevista-a-miguel-littin-cucumides/
+    - XPATH enlances noticias:
+    - URL noticia: https://diariocondor.cl/2023/06/09/magallanes-de-nancagua-celebro-105-anos-de-historia-deportiva/
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+
+19. - Nombre: Diario VI Región
+    - Ubicación: San Fernando, Región del Libertador Bernardo O'Higgins, Chile
+    - Año fundación: 1952
+    - Cobertura: Regional
+    - Fundador(es): Ramón Morales Moraga
+    - Sitio web: https://www.diarioviregion.cl/
+    - Cuenta IG: diario_sexta_region
+    - Cuenta FB: Diario Sexta Región
+    - Cuenta TW: Diario Sexta Región
+    - Seguidores IG: 3378
+    - Seguidores FB: 5399
+    - Seguidores TW: 4388
+    - Categoría(s): Noticias, Deportes, Policial, Avisos Legales
+    - URL principal categoria: https://www.diarioviregion.cl/index.php/policial
+    - URL ejemplo categoria: https://www.diarioviregion.cl/index.php/policial/25740-pdi-incauto-desde-local-comercial-ropa-falsificada-avaluada-17-millones
+    - XPATH enlances noticias:
+    - URL noticia: https://www.diarioviregion.cl/index.php/noticias/25735-alcalde-pablo-silva-junto-a-ministros-recorrieron-sector-los-huertos-y-visitaron-a-damnificados
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+    
+
+20. - Nombre: La Nacion
+    - Ubicación: Santiago, Región Metropolitana, Chile
+    - Año de fundación: 1917
+    - Cobertura: Nacional
+    - Fundador(es): Eliodoro Yáñez Ponce de León
+    - Sitio web: https://www.lanacion.cl/
+    - Cuenta IG: lanacioncl
+    - Cuenta FB: Diario La Nación
+    - Cuenta TW: La Nación Chile
+    - Seguidores IG: 8419
+    - Seguidores FB: 4337
+    - Seguidores TW: 345200
+    - Categoría(s): Actualidad, Dato Útil, Opinión, Economía, Triunfo, Vanguardia, Avisos Legales
+    - URL principal categoria: https://www.lanacion.cl/economia/
+    - URL ejemplo categoria: https://www.lanacion.cl/ventas-minoristas-presenciales-caen-12-real-en-mayo-en-linea-con-baja-de-abril/
+    - XPATH enlances noticias:
+    - URL noticia: https://www.lanacion.cl/fiscal-de-antofagasta-informo-que-tras-allanar-domicilio-se-le-incautaron-computador-y-celular-a-daniel-andrade/
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+    
+    
+21. - Nombre: El Andino
+    - Ubicación: Los Andes, Región de Valparaíso, Chile
+    - Año fundación: 1975
+    - Cobertura: Local
+    - Fundador(es):
+    - Sitio web: http://www.elandino.cl/
+    - Cuenta IG: 
+    - Cuenta FB: Diario El Andino de Los Andes
+    - Cuenta TW: Diario El Andino
+    - Seguidores IG: 
+    - Seguidores FB: 30000
+    - Seguidores TW: 3160
+    - Categoría(s): Comunas, Deportes, Minería, Columnistas, Bolsa de Trabajo
+    - URL principal categoria: https://www.elandino.cl/category/mineria/
+    - URL ejemplo categoria: https://www.elandino.cl/us-4-millones-diarios-cuesta-la-huelga-en-codelco-andina/
+    - XPATH enlances noticias:
+    - URL noticia: https://www.elandino.cl/liceo-mixto-realizo-emotiva-ceremonia-de-despedida-al-profesor-modesto-montenegro-gonzalez/
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+
+22. - Nombre: El Labrador
+    - Ubicación: Melipilla, Región Metropolitana, Chile
+    - Año fundación: 1921
+    - Cobertura: Local
+    - Fundador(es): Ramón Merino Benítez
+    - Sitio web: https://www.diariolabrador.cl/
+    - Cuenta IG: diarioellabrador
+    - Cuenta FB: Diario El Labrador
+    - Cuenta TW: Diario El Labrador
+    - Seguidores IG: 1044
+    - Seguidores FB: 6341
+    - Seguidores TW: 5485
+    - Categoría(s): Crónicas, Diario Digital, Suplemento
+    - URL principal categoria: https://www.diariolabrador.cl/categoria/diariodigital/
+    - URL ejemplo categoria: https://www.diariolabrador.cl/edicion-digital-domingo-25-de-junio-de-2023/
+    - XPATH enlances noticias:
+    - URL noticia: https://www.diariolabrador.cl/suplemento-31-restos-de-jose-miguel-cabrera/
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+
+23. - Nombre: El Heraldo 
+    - Ubicación: Linares, Región del Maule, Chile
+    - Año fundación: 1937
+    - Cobertura: Local
+    - Fundador(es): Justo Aliaga Cobo
+    - Sitio web: https://www.diarioelheraldo.cl/
+    - Cuenta IG:
+    - Cuenta FB: El Heraldo Linares
+    - Cuenta TW: 
+    - Seguidores IG:
+    - Seguidores FB: 16000
+    - Seguidores TW: 
+    - Categoría(s): Agricultura, Crónica, Cultura, Deportes, Editorial, Nacional, Opinión, Policial, Politica, Social, Ediciones Anteriores
+    - URL principal categoria: https://www.diarioelheraldo.cl/categoria/cultura
+    - URL ejemplo categoria: https://www.diarioelheraldo.cl/noticia/en-linares-fue-resaltada-celebracion-de-ano-nuevo-mapuche
+    - XPATH enlances noticias:
+    - URL noticia: https://www.diarioelheraldo.cl/noticia/provincia-de-linares-aun-4-personas-desaparecidas-tras-desborde-de-rios
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+
+24. - Nombre: 
+    - Ubicación: 
+    - Año fundación: 
+    - Cobertura: 
+    - Fundador(es): 
+    - Sitio web: 
+    - Cuenta IG:
+    - Cuenta FB: 
+    - Cuenta TW: 
+    - Seguidores IG:
+    - Seguidores FB: 
+    - Seguidores TW: 
+    - Categoría(s): 
+    - URL principal categoria: 
+    - URL ejemplo categoria: 
+    - XPATH enlances noticias:
+    - URL noticia: https:
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+    
+25. - Nombre: 
+    - Ubicación: 
+    - Año fundación: 
+    - Cobertura: 
+    - Fundador(es): 
+    - Sitio web: 
+    - Cuenta IG:
+    - Cuenta FB: 
+    - Cuenta TW: 
+    - Seguidores IG:
+    - Seguidores FB: 
+    - Seguidores TW: 
+    - Categoría(s): 
+    - URL principal categoria: 
+    - URL ejemplo categoria: 
+    - XPATH enlances noticias:
+    - URL noticia: https:
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+
+26. - Nombre: 
+    - Ubicación: 
+    - Año fundación: 
+    - Cobertura: 
+    - Fundador(es): 
+    - Sitio web: 
+    - Cuenta IG:
+    - Cuenta FB: 
+    - Cuenta TW: 
+    - Seguidores IG:
+    - Seguidores FB: 
+    - Seguidores TW: 
+    - Categoría(s): 
+    - URL principal categoria: 
+    - URL ejemplo categoria: 
+    - XPATH enlances noticias:
+    - URL noticia: https:
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+
+27. - Nombre: La Prensa Austral
+    - Ubicacion: Punta Arenas, Región de Magallanes y la Antártica Chilena, Chile
+    - Año fundación: 1894
+    - Cobertura: Nacional e internacional 
+    - Fundador(es): Juan Bautista Contardi y Lautaro Navarro
+    - Sitio web: https://laprensaaustral.cl/
+    - Cuenta IG: la_prensa_austral
+    - Cuenta FB: La Prensa Austral
+    - Cuenta TW: La Prensa Austral
+    - Seguidores IG: 7972
+    - Seguidores FB: 155000
+    - Seguidores TW: 28000
+    - Categoría(s): Editorial, Espectaculos y Cultura, Pa'Callao, Vida Social, Nacional, Internacional, Tendencias, Deportes
+    - URL principal categoria: https://laprensaaustral.cl/category/nacional/
+    - URL ejemplo categoria: https://laprensaaustral.cl/2023/06/27/cifra-de-desaparecidos-baja-a-tres-y-hay-9-610-personas-aisladas/
+    - XPATH enlances noticias:
+    - URL noticia: https://laprensaaustral.cl/2023/06/28/espanol-gano-las-tres-categorias-femeninas-y-los-clubes-de-rio-gallegos-campeonaron-en-varones/
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+
+28. - Nombre: El Pingüino
+    - Ubicacion: Punta Arenas, Región de Magallanes y la Antártica Chilena, Chile
+    - Año fundación: 2008
+    - Cobertura: Nacional e internacional
+    - Fundador(es): Guido Vallejos
+    - Sitio web: https://elpinguino.com/
+    - Cuenta IG: elpinguinomultimedia
+    - Cuenta FB: Diario El Pingüino
+    - Cuenta TW: Pingüino Multimedia
+    - Seguidores IG: 44800
+    - Seguidores FB: 172000
+    - Seguidores TW: 32800
+    - Categoría(s): Policial, Regional, Nacional, Internacional, Crónica, Deportes, Cultura y Entretención, Tendencias, Opinión
+    - URL principal categoria: https://elpinguino.com/categoria/deportes
+    - URL ejemplo categoria: https://elpinguino.com/noticia/2023/06/22/arturo-vidal-asume-su-rol-en-la-seleccion-chilena-la-fuerza-de-los-jovenes-nos-va-a-llevar-a-otro-mundial
+    - XPATH enlances noticias:
+    - URL noticia: https://elpinguino.com/noticia/2023/06/27/conductor-resulto-con-lesiones-leves-tras-volcar-su-camion-en-la-ruta-ch-257-
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+    
+
+29. - Nombre: El Divisadero
+    - Ubicacion: Coyhaique, Región de Aysén del General Carlos Ibáñez del Campo, Chile
+    - Año fundaciónn: 1994
+    - Cobertura: Regional (Aysén)
+    - Fundador(es): Manuel Rafael Ahumada Lagos
+    - Sitio web: http://www.eldivisadero.cl/home
+    - Cuenta IG: eldivisadero.cl
+    - Cuenta FB: Diario El Divisadero
+    - Cuenta TW: El Divisadero
+    - Seguidores IG: 8812
+    - Seguidores FB: 36000
+    - Seguidores TW: 13900
+    - Categoría(s): Coronavirus, Cultura, Política, Policial, Nueva Constitución, Deportes, Turismo
+    - URL principal categoria: http://www.eldivisadero.cl/_categoria/Pol%C3%ADtica/MTg=
+    - URL ejemplo categoria: http://www.eldivisadero.cl/_noticia/Diputada-Raphael-pide-informaci%C3%B3n-a-las-Serem%C3%ADas-por-posibles-v%C3%ADnculos-con-Democracia-Viva/NzA5ODY=
+    - XPATH enlances noticias:
+    - URL noticia: http://www.eldivisadero.cl/_noticia/Ley-de-Conciliaci%C3%B3n-de-Vida-Laboral-y-Familiar-Las-acciones-que-tendr%C3%A1n-que-tomar-pymes-y-empresas-/NzEwMDU=
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+  
+  
+   
+30. - Nombre: 
+    - Ubicación: 
+    - Año fundación: 
+    - Cobertura: 
+    - Fundador(es): 
+    - Sitio web: 
+    - Cuenta IG:
+    - Cuenta FB: 
+    - Cuenta TW: 
+    - Seguidores IG:
+    - Seguidores FB: 
+    - Seguidores TW: 
+    - Categoría(s): 
+    - URL principal categoria: 
+    - URL ejemplo categoria: 
+    - XPATH enlances noticias:
+    - URL noticia: https:
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+
+31. - Nombre: La Prensa de Curicó
+    - Ubicacion: Curicó, Región del Maule, Chile
+    - Año fundación: 1886
+    - Cobertura: Regional (Curicó)
+    - Fundador(es): Luis, Erasmo y Froilán Morán Aliaga
+    - Sitio web: https://new.diariolaprensa.cl/
+    - Cuenta IG: diariolaprensa.cl
+    - Cuenta FB: Diario La Prensa
+    - Cuenta TW: Diario La Prensa
+    - Seguidores IG: 2420
+    - Seguidores FB: 20000
+    - Seguidores TW: 20100
+    - Categoría(s): Noticias, Policial, Deportes, Ciencia y Tencología
+    - URL principal categoria: https://new.diariolaprensa.cl/index.php/category/ciencia-y-tecnologia/
+    - URL ejemplo categoria: https://new.diariolaprensa.cl/index.php/2023/04/21/talca-camina-a-convertirse-en-una-ciudad-inteligente/
+    - XPATH enlances noticias:
+    - URL noticia: https://new.diariolaprensa.cl/index.php/2023/06/28/manana-se-juega-frente-a-santiago-morning/
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+    
+
+
+32. - Nombre: 
+    - Ubicacion: 
+    - Año fundación: 
+    - Cobertura: 
+    - Fundador(es): 
+    - Sitio web: 
+    - Cuenta IG: 
+    - Cuenta FB:
+    - Cuenta TW:
+    - Seguidores IG: 
+    - Seguidores FB:
+    - Seguidores TW:
+    - Categoría(s):
+    - URL principal categoria: 
+    - URL ejemplo categoria: 
+    - XPATH enlances noticias:
+    - URL noticia:
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+
+33. - Nombre: El Día
+    - Ubicacion: La Serena, Región de Coquimbo, Chile
+    - Año fundación: 1944
+    - Cobertura: Nacional e internacional
+    - Fundador(es): Pedro Vega Gutiérrez
+    - Sitio web: https://www.diarioeldia.cl/
+    - Cuenta IG: eldia.cl
+    - Cuenta FB: Diario El Día
+    - Cuenta TW: Diario El Día
+    - Seguidores IG: 90000
+    - Seguidores FB: 190000
+    - Seguidores TW: 137100
+    - Categoría(s): Economía, Policial, Deportes, Magazine, Mundo, País, Región, Tendencias
+    - URL principal categoria: https://www.diarioeldia.cl/policial/
+    - URL ejemplo categoria: https://www.diarioeldia.cl/policial/2023/6/28/familia-de-matias-araya-joven-asesinado-en-ovalle-exige-justicia-102251.html
+    - XPATH enlances noticias:
+    - URL noticia: https://www.diarioeldia.cl/deportes/2023/6/28/que-aseguran-que-sergio-jadue-esta-en-quiebra-en-miami-dormiria-con-su-mama-102262.html
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+
+34. - Nombre: La Región
+    - Ubicacion: Coquimbo, Región de Coquimbo
+    - Año fundación: 2004
+    - Cobertura: Nacional
+    - Fundador(es): Luis Villagrán Castellón
+    - Sitio web: https://www.diariolaregion.cl/
+    - Cuenta IG: 
+    - Cuenta FB: Diario La Región
+    - Cuenta TW: Diario La Región
+    - Seguidores IG: 
+    - Seguidores FB: 14000
+    - Seguidores TW: 15800
+    - Categoría(s): Actualidad, Policial, Política, Nacional, Deportes, Magazine
+    - URL principal categoria: https://www.diariolaregion.cl/category/politica/
+    - URL ejemplo categoria: https://www.diariolaregion.cl/presidente-gabriel-boric-resalta-anuncios-en-seguridad-transportes-y-ciudades-para-la-region-de-coquimbo/
+    - XPATH enlances noticias:
+    - URL noticia: https://www.diariolaregion.cl/el-puerto-sera-sede-de-torneo-del-deporte-adaptado-impulsado-por-teleton/
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+
+35. - Nombre: El Ovallino
+    - Ubicacion: Ovalle, Región de Coquimbo, Chile
+    - Año fundación: 1989
+    - Cobertura: Local
+    - Fundador(es): Mario Banic Illanes
+    - Sitio web: http://www.elovallino.cl/
+    - Cuenta IG: 
+    - Cuenta FB: Diario El Ovallino
+    - Cuenta TW: Diario El Ovallino
+    - Seguidores IG: 
+    - Seguidores FB: 80000
+    - Seguidores TW: 18000
+    - Categoría(s): Provincia, Policial, Deportes, Cultura, Social, Economía, Papel Digital, Reportero Ciudadano
+    - URL principal categoria: http://www.elovallino.cl/topico/policial
+    - URL ejemplo categoria: http://www.elovallino.cl/policial/roban-copas-intentan-incendiar-sede-club-lautaro-tricolor-guindo
+    - XPATH enlances noticias:
+    - URL noticia: http://www.elovallino.cl/social/mas-30-localidades-provincia-limari-sin-electrificacion-publica
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+
+36. - Nombre: 
+    - Ubicacion: 
+    - Año fundación: 
+    - Cobertura: 
+    - Fundador(es): 
+    - Sitio web: 
+    - Cuenta IG: 
+    - Cuenta FB:
+    - Cuenta TW:
+    - Seguidores IG: 
+    - Seguidores FB:
+    - Seguidores TW:
+    - Categoría(s):
+    - URL principal categoria: 
+    - URL ejemplo categoria: 
+    - XPATH enlances noticias:
+    - URL noticia:
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+
+37. - Nombre: 
+    - Ubicacion: 
+    - Año fundación: 
+    - Cobertura: 
+    - Fundador(es): 
+    - Sitio web: 
+    - Cuenta IG: 
+    - Cuenta FB:
+    - Cuenta TW:
+    - Seguidores IG: 
+    - Seguidores FB:
+    - Seguidores TW:
+    - Categoría(s):
+    - URL principal categoria: 
+    - URL ejemplo categoria: 
+    - XPATH enlances noticias:
+    - URL noticia:
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+
+38. - Nombre: 
+    - Ubicacion: 
+    - Año fundación: 
+    - Cobertura: 
+    - Fundador(es): 
+    - Sitio web: 
+    - Cuenta IG: 
+    - Cuenta FB:
+    - Cuenta TW:
+    - Seguidores IG: 
+    - Seguidores FB:
+    - Seguidores TW:
+    - Categoría(s):
+    - URL principal categoria: 
+    - URL ejemplo categoria: 
+    - XPATH enlances noticias:
+    - URL noticia:
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+
+39. - Nombre: La Tribuna
+    - Ubicacion: Los Ángeles, Región del BioBio, Chile
+    - Año fundación: 1958
+    - Cobertura: Nacional
+    - Fundador(es): Domingo Contreras Quintana
+    - Sitio web: https://www.latribuna.cl/
+    - Cuenta IG: latribuna.cl
+    - Cuenta FB: Diario La Tribuna
+    - Cuenta TW: Diario La Tribuna
+    - Seguidores IG: 54800
+    - Seguidores FB: 170000
+    - Seguidores TW: 18400
+    - Categoría(s): Comunas, Internacional, Nacional, Editorial, Identidad, Deportes, Crónica Ciudadana, Salud, etc
+    - URL principal categoria: https://www.latribuna.cl/categoria/salud/
+    - URL ejemplo categoria: https://www.latribuna.cl/salud/2023/06/28/diez-regiones-disminuyen-sus-casos-confirmados-de-covid-19.html
+    - XPATH enlances noticias:
+    - URL noticia: https://www.latribuna.cl/deportes/2023/06/28/los-titulos-mundiales-de-argentina-y-uruguay-seran-usados-como-gancho-para-la-candidatura-2030.html
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+
+40. - Nombre: La Discusión
+    - Ubicacion: Chillán, Región de Ñuble, Chile
+    - Año fundación: 1870
+    - Cobertura: Nacional
+    - Fundador(es): Juan Ignacio Montenegro
+    - Sitio web: https://www.ladiscusion.cl/
+    - Cuenta IG: ladiscusion.cl
+    - Cuenta FB: La Discusión
+    - Cuenta TW: La Discusión
+    - Seguidores IG: 31600
+    - Seguidores FB: 145000
+    - Seguidores TW: 56000
+    - Categoría(s): Opinión, Noticias, Política, País, Economía, Cultura, Deportes, Ediciones Anteriores
+    - URL principal categoria: https://www.ladiscusion.cl/category/politica/
+    - URL ejemplo categoria: https://www.ladiscusion.cl/proponen-fondo-de-us500-millones-para-la-reconstruccion/
+    - XPATH enlances noticias:
+    - URL noticia: https://www.ladiscusion.cl/tomas-barrios-fue-el-chileno-mas-beneficiado-en-el-ranking-atp/
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+
+42. - Nombre: 24 Horas
+    - Ubicacion: Santiago, Región Metropolitana, Chile
+    - Año fundación: 2009
+    - Cobertura: Nacional e internacional
+    - Fundador(es): TVN
+    - Sitio web: https://www.24horas.cl/
+    - Cuenta IG: 24horascl
+    - Cuenta FB: 24horas.cl
+    - Cuenta TW: 24 Horas
+    - Seguidores IG: 1300000
+    - Seguidores FB: 7500000
+    - Seguidores TW: 4200000
+    - Categoría(s): Actualidad, Internacional, Deportes, Regiones, Tendencias
+    - URL principal categoria: https://www.24horas.cl/deportes
+    - URL ejemplo categoria: https://www.24horas.cl/deportes/futbol-nacional
+    - XPATH enlances noticias:
+    - URL noticia: https://www.24horas.cl/actualidad/nacional/fotos-pelea-concejo-municipal-lo-espejo
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+
+43. - Nombre: Meganoticias
+    - Ubicacion: Santiago, Región Metropolitana, Chile
+    - Año fundación: 1990
+    - Cobertura: Nacional e internacional
+    - Fundador(es): Mega
+    - Sitio web: https://www.meganoticias.cl/
+    - Cuenta IG: meganoticiascl
+    - Cuenta FB: Meganoticias
+    - Cuenta TW: Meganoticias
+    - Seguidores IG: 3400000
+    - Seguidores FB: 5200000
+    - Seguidores TW: 3000000
+    - Categoría(s): Nacional, Mundo, Tendencias, Calidad de vida
+    - URL principal categoria: https://www.meganoticias.cl/nacional/
+    - URL ejemplo categoria: https://www.meganoticias.cl/nacional/418277-seremi-vivienda-maule-traspasos-fundacion-urbanismo-social-investigacion-28-06-2023.html
+    - XPATH enlances noticias:
+    - URL noticia: https://www.meganoticias.cl/tendencias/418272-que-edad-tiene-madonna.html
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+
+
+44. - Nombre: T13
+    - Ubicacion: Santiago, Región Metropolitana, Chile
+    - Año fundación: 1970
+    - Cobertura: Nacional e internacional
+    - Fundador(es): Canal 13
+    - Sitio web: https://www.t13.cl/
+    - Cuenta IG: teletrece
+    - Cuenta FB: T13
+    - Cuenta TW: T13
+    - Seguidores IG: 1700000
+    - Seguidores FB: 4400000
+    - Seguidores TW: 4000000
+    - Categoría(s): Chile, Consejo Constitucional, Política, Mundo, Deportes, Negocios, Emprendedores, Tendencias
+    - URL principal categoria: https://www.t13.cl/politica
+    - URL ejemplo categoria: https://www.t13.cl/noticia/politica/gobierno-pide-separar-las-cosas-discusion-por-nuevo-pacto-fiscal-convenios-28-6-2023
+    - XPATH enlances noticias:
+    - URL noticia: https://www.deportes13.cl/futbol-nacional/en-medio-de-varios-conflictos-deportes-temuco-dio-el-batacazo-y-elimino-a
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+
+45. - Nombre: 
+    - Ubicacion: 
+    - Año fundación: 
+    - Cobertura: 
+    - Fundador(es): 
+    - Sitio web: 
+    - Cuenta IG: 
+    - Cuenta FB:
+    - Cuenta TW:
+    - Seguidores IG: 
+    - Seguidores FB:
+    - Seguidores TW:
+    - Categoría(s):
+    - URL principal categoria: 
+    - URL ejemplo categoria: 
+    - XPATH enlances noticias:
+    - URL noticia:
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+
+    
+46. - Nombre: 
+    - Ubicacion: 
+    - Año fundación: 
+    - Cobertura: 
+    - Fundador(es): 
+    - Sitio web: 
+    - Cuenta IG: 
+    - Cuenta FB:
+    - Cuenta TW:
+    - Seguidores IG: 
+    - Seguidores FB:
+    - Seguidores TW:
+    - Categoría(s):
+    - URL principal categoria: 
+    - URL ejemplo categoria: 
+    - XPATH enlances noticias:
+    - URL noticia:
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+
+47. - Nombre: El Observador
+    - Ubicacion: Quillota, Región de Valparaíso, Chile
+    - Año fundación: 1970
+    - Cobertura: Nacional
+    - Fundador(es): Roberto Silva Bijit
+    - Sitio web: https://www.observador.cl/
+    - Cuenta IG: eo_enlinea
+    - Cuenta FB: Diario El Observador
+    - Cuenta TW: Diario El Observador
+    - Seguidores IG: 23200
+    - Seguidores FB: 166000
+    - Seguidores TW: 43000
+    - Categoría(s): Policial, Deportes, Tendencias, Opinión, Provincias, Actualidad
+    - URL principal categoria: https://www.observador.cl/category/policial/
+    - URL ejemplo categoria: https://www.observador.cl/villa-alemana-detienen-a-cuatro-personas-por-violento-asalto/
+    - XPATH enlances noticias:
+    - URL noticia: https://www.observador.cl/anfp-reprogramo-partido-entre-union-la-calera-y-colo-colo-por-copa-chile/
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+    
+48. - Nombre:
+    - Ubicacion: 
+    - Año fundación: 
+    - Cobertura: 
+    - Fundador(es): 
+    - Sitio web: 
+    - Cuenta IG: 
+    - Cuenta FB:
+    - Cuenta TW:
+    - Seguidores IG: 
+    - Seguidores FB:
+    - Seguidores TW:
+    - Categoría(s):
+    - URL principal categoria: 
+    - URL ejemplo categoria: 
+    - XPATH enlances noticias:
+    - URL noticia:
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+    
+ 49. - Nombre: 
+    - Ubicacion: 
+    - Año fundación: 
+    - Cobertura: 
+    - Fundador(es): 
+    - Sitio web: 
+    - Cuenta IG: 
+    - Cuenta FB:
+    - Cuenta TW:
+    - Seguidores IG: 
+    - Seguidores FB:
+    - Seguidores TW:
+    - Categoría(s):
+    - URL principal categoria: 
+    - URL ejemplo categoria: 
+    - XPATH enlances noticias:
+    - URL noticia:
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+    
+
+ 50. - Nombre: 
+    - Ubicacion: 
+    - Año fundación: 
+    - Cobertura: 
+    - Fundador(es): 
+    - Sitio web: 
+    - Cuenta IG: 
+    - Cuenta FB:
+    - Cuenta TW:
+    - Seguidores IG: 
+    - Seguidores FB:
+    - Seguidores TW:
+    - Categoría(s):
+    - URL principal categoria: 
+    - URL ejemplo categoria: 
+    - XPATH enlances noticias:
+    - URL noticia:
+    - Xpath fecha:
+    - Xpath título:
+    - Xpath contenido:
+
+    
