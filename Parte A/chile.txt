@@ -16,9 +16,9 @@
    - URL ejemplo categoria: https://www.diarioconcepcion.cl/politica/2023/06/28/presidente-gabriel-boric-en-alto-biobio-comuna-dispondra-de-helicoptero-de-la-armada.html
    - XPATH enlances noticias:
    - URL noticia: https://www.diarioconcepcion.cl/ciudad/2023/06/28/advierten-peak-respiratorio-de-adultos-y-ninos-tras-inundaciones-en-la-region.html
-   - Xpath fecha: //time/span/text()
-   - Xpath título: body/div[7]/main/div[1]/section/div[1]/div[1]/h1/text()
-   - Xpath contenido: /html/body/div[7]/main[1]/div[1]/section/div[1]/div[3]/div[2]/p/text()
+   - Xpath fecha: //span[@class="the-single__date"]/text()
+   - Xpath título: //h1[@class="the-single__title"]/text()
+   - Xpath contenido: //div[@class="the-single__text"]//p//text()
    
 
 2. - Nombre: El Correo del Moai
@@ -39,9 +39,9 @@
    - URL ejemplo categoria: https://www.elcorreodelmoai.com/?p=2459
    - XPATH enlances noticias:
    - URL noticia: https://www.elcorreodelmoai.com/?p=2451
-   - Xpath fecha: /html/body/div[1]/div[2]/div[1]/div[2]/article/div[1]/span[2]/strong/text()
-   - Xpath título: /html/body/div[1]/div[2]/div[1]/div[2]/article/h1/text()
-   - Xpath contenido: //*[@id="article_content"]/p/text()
+   - Xpath fecha: //span[@class="meta_date"]/strong/text()
+   - Xpath título: //h1[@class="cat_article_title"]/text()
+   - Xpath contenido: //*[@id="article_content"]/p//text()
     
    
 
@@ -62,9 +62,9 @@
    - URL ejemplo categoria: https://www.latercera.com/politica/noticia/cronologia-el-giro-en-180-del-senador-latorre-en-el-caso-que-remece-a-rd/YHVTDYNO45HYNJFORQRTZQPDZQ/
    - XPATH enlances noticias:
    - URL noticia: https://www.latercera.com/la-tercera-pm/noticia/31-millones-para-campana-del-apruebo-consejo-para-la-transparencia-envia-al-ministerio-publico-nuevos-antecedentes-sobre-aportes-a-democracia-viva/A3ISKUCKOREBDL3JXH5Y6ZV6UQ/
-   - Xpath fecha: //*[@id='fusion-app']/div[1]/section/article/header/div/div[2]/div/time/small/b/text()
-   - Xpath título: //*[@id='fusion-app']/div[1]/section/article/header/div/div[1]/h1/div/text()
-   - Xpath contenido: //*[@id="fusion-app"]/div[1]/section/article/div[2]/div[6]/div/div[2]/div[2]
+   - Xpath fecha: //time/small/b/text()
+   - Xpath título: //div[@class="hl"]//div/text()
+   - Xpath contenido: //div[@class="single-content"]//p//text()
  
 
 4. - Nombre: Emol

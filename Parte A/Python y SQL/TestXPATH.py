@@ -4,7 +4,7 @@ from requests_html import HTMLSession
 session = HTMLSession()
 
 ## URL que escrapear
-URL = "https://www.diariosanjose.cl/noticia/deportes/2023/06/copa-del-mundo-de-azerbaiyan-el-nuevo-desafio-de-javiera-gomez"
+URL = "https://www.latercera.com/la-tercera-pm/noticia/31-millones-para-campana-del-apruebo-consejo-para-la-transparencia-envia-al-ministerio-publico-nuevos-antecedentes-sobre-aportes-a-democracia-viva/A3ISKUCKOREBDL3JXH5Y6ZV6UQ/"
 
 ## Simular que estamos utilizando un navegador web
 USER_AGENT_LIST = [
@@ -32,8 +32,9 @@ headers = {'user-agent':random.choice(USER_AGENT_LIST) }
 response = session.get(URL,headers=headers)
 response.html.render()
 
-xpath = response.html.xpath('//*[@id="printableArea"]/div[2]/div[2]/p//text()')
-
+xpath = response.html.xpath('//div[@class="single-content"]//p//text()')
+#//*[@id="fusion-app"]/div[1]/section/article/header/div/div[2]/div/time/small/b
+#<div class="author d-flex-center m-bot-10"
 for i in range(len(xpath)):
     print(xpath[i])
 #print(len(xpath))
