@@ -354,9 +354,10 @@
     - URL ejemplo categoria: https://www.chasquis.cl/diario/page.php?id=20881
     - XPATH enlances noticias:
     - URL noticia: https://www.chasquis.cl/diario/page.php?id=20851
-    - Xpath fecha: /html/body/table[2]/tbody/tr[1]/td[1]/table/tbody/tr[6]/td/div
-    - Xpath título: /html/body/table[2]/tbody/tr[1]/td[1]/table/tbody/tr[1]/td/h1
-    - Xpath contenido:
+    # NO SE PUEDE SIMPLIFICAR MAS (xpath titulo) DEBIDO AL FORMATO DE LA PAGINA, NO OCUPA CLASS NI IDS
+    - Xpath fecha: //div[@class="style10"]/text()
+    - Xpath título: /html/body/table[2]/tbody/tr[1]/td[1]/table/tbody/tr[1]/td/h1/text()
+    - Xpath contenido: //span[@class="style10"]//p//text()
   
 
 17. - Nombre: El Rancagüino
@@ -377,9 +378,10 @@
     - URL ejemplo categoria: https://www.elrancaguino.cl/2023/06/26/proponen-fondo-de-500-millones-de-dolares-para-la-reconstruccion/
     - XPATH enlances noticias:
     - URL noticia: https://www.elrancaguino.cl/2023/06/28/delantero-de-lanus-suena-como-posible-refuerzo-de-ohiggins/
+    # Este no me dejaba probar los xpath no se pq
     - Xpath fecha: /html/body/div[2]/section[2]/div/div[1]/div/div[4]/div/ul/li[2]/span[2]/text()
-    - Xpath título: /html/body/div[2]/section[2]/div/div[1]/div/div[2]/div/h1
-    - Xpath contenido: /html/body/div[2]/section[2]/div/div[1]/div/div[10]/div
+    - Xpath título: //h1[@class="elementor-heading-title elementor-size-default"]/text()
+    - Xpath contenido: /html/body/div[2]/section[2]/div/div[1]/div/div[10]/div/text()
     
 18. - Nombre: El Cóndor
     - Ubicación: Santa Cruz, Región del Libertador General Bernardo O'Higgins, Chile
@@ -399,9 +401,9 @@
     - URL ejemplo categoria: https://diariocondor.cl/2021/11/01/entrevista-a-miguel-littin-cucumides/
     - XPATH enlances noticias:
     - URL noticia: https://diariocondor.cl/2023/06/09/magallanes-de-nancagua-celebro-105-anos-de-historia-deportiva/
-    - Xpath fecha: //article/div[2]/div[2]/span[1]/a/time[1]/text()
-    - Xpath título: //article/div[2]/header/h1
-    - Xpath contenido: //article/div[2]/div[3]
+    - Xpath fecha: //div[@class="article-content clearfix"]/div[2]/span/a/time[1]/text()
+    - Xpath título: //h1[@class="entry-title"]/text()
+    - Xpath contenido: //div[@class="entry-content clearfix"]//p//text()
 
 19. - Nombre: Diario VI Región
     - Ubicación: San Fernando, Región del Libertador Bernardo O'Higgins, Chile
@@ -421,9 +423,9 @@
     - URL ejemplo categoria: https://www.diarioviregion.cl/index.php/policial/25740-pdi-incauto-desde-local-comercial-ropa-falsificada-avaluada-17-millones
     - XPATH enlances noticias:
     - URL noticia: https://www.diarioviregion.cl/index.php/noticias/25735-alcalde-pablo-silva-junto-a-ministros-recorrieron-sector-los-huertos-y-visitaron-a-damnificados
-    - Xpath fecha: //*[@id="t3-content"]/div[1]/div/article/aside/dl/dd[3]/time/text()
-    - Xpath título://*[@id="t3-content"]/div[1]/div/article/header/h1
-    - Xpath contenido: //*[@id="t3-content"]/div[1]/div/article/section[3]/div
+    - Xpath fecha: //dd[@class="published hasTooltip"]/time/text()
+    - Xpath título://h1[@class="article-title"]/text()
+    - Xpath contenido: //section[@class="article-content"]//p//text()
     
 
 20. - Nombre: La Nacion
@@ -444,9 +446,9 @@
     - URL ejemplo categoria: https://www.lanacion.cl/ventas-minoristas-presenciales-caen-12-real-en-mayo-en-linea-con-baja-de-abril/
     - XPATH enlances noticias:
     - URL noticia: https://www.lanacion.cl/fiscal-de-antofagasta-informo-que-tras-allanar-domicilio-se-le-incautaron-computador-y-celular-a-daniel-andrade/
-    - Xpath fecha://*[@id="tdi_15_042"]/div/div[1]/div/div[5]/div/time/text()
-    - Xpath título: //*[@id="tdi_15_042"]/div/div[1]/div/div[2]/div/h1
-    - Xpath contenido://*[@id="tdi_15_042"]/div/div[1]/div/div[2]/div/h1
+    - Xpath fecha: //time[@class="entry-date updated td-module-date"]/text()
+    - Xpath título: //h1[@class="tdb-title-text"]/text()
+    - Xpath contenido: //div[@class="tdb-block-inner td-fix-index"]//p//text()
     
     
 21. - Nombre: El Andino
