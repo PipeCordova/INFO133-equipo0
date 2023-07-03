@@ -4,7 +4,7 @@ from requests_html import HTMLSession
 session = HTMLSession()
 
 ## URL que escrapear
-URL = "https://www.lanacion.cl/fiscal-de-antofagasta-informo-que-tras-allanar-domicilio-se-le-incautaron-computador-y-celular-a-daniel-andrade/"
+URL = "https://www.eha.cl/noticia/deportes/joven-nadador-cristobal-villouta-obtuvo-tres-medallas-de-oro-en-campeonato-nacional-de-invierno-de-natacion"
 
 ## Simular que estamos utilizando un navegador web
 USER_AGENT_LIST = [
@@ -32,7 +32,7 @@ headers = {'user-agent':random.choice(USER_AGENT_LIST) }
 response = session.get(URL,headers=headers)
 response.html.render()
 
-xpath = response.html.xpath('//div[@class="tdb-block-inner td-fix-index"]//p//text()')
+xpath = response.html.xpath('')
 # //*[@id="t3-content"]/div[1]/div/article/aside/dl/dd[3]/time/text()
 for i in range(len(xpath)):
     print(xpath[i])

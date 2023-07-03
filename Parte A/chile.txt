@@ -424,7 +424,7 @@
     - XPATH enlances noticias:
     - URL noticia: https://www.diarioviregion.cl/index.php/noticias/25735-alcalde-pablo-silva-junto-a-ministros-recorrieron-sector-los-huertos-y-visitaron-a-damnificados
     - Xpath fecha: //dd[@class="published hasTooltip"]/time/text()
-    - Xpath título://h1[@class="article-title"]/text()
+    - Xpath título: //h1[@class="article-title"]/text()
     - Xpath contenido: //section[@class="article-content"]//p//text()
     
 
@@ -469,9 +469,9 @@
     - URL ejemplo categoria: https://www.elandino.cl/us-4-millones-diarios-cuesta-la-huelga-en-codelco-andina/
     - XPATH enlances noticias:
     - URL noticia: https://www.elandino.cl/liceo-mixto-realizo-emotiva-ceremonia-de-despedida-al-profesor-modesto-montenegro-gonzalez/
-    - Xpath fecha: //*[@id="post-header-bd"]/header/div[1]/div[2]/span/text()
-    - Xpath título: //*[@id="post-header-bd"]/header/h1
-    - Xpath contenido: //*[@class="post-id"]/div[3]
+    - Xpath fecha: //div[@class="post-date-bd"]//span/text()
+    - Xpath título: //h1[@class="entry-title"]/text()
+    - Xpath contenido: //*[@class="post-id"]/div[3]    #falta
 
 22. - Nombre: El Heraldo Austral
     - Ubicación: Puerto Varas, Region de los lagos, Chile
@@ -485,10 +485,11 @@
     - Seguidores IG: 12100
     - Seguidores FB: 20000
     - Seguidores TW: 10600
-    - Actividad Seguidores: 28/06/2023
+    - Actividad Seguidores: 30/06/2023
     - Categoría(s): Local, Regional, Educación, Deportes, Cultura, Actualidad
     - URL principal categoria: https://www.eha.cl/
     - URL ejemplo categoria: https://www.eha.cl/noticias/deportes
+    - XPATH enlances noticias:
     - URL noticia: https://www.eha.cl/noticia/deportes/joven-nadador-cristobal-villouta-obtuvo-tres-medallas-de-oro-en-campeonato-nacional-de-invierno-de-natacion
     - Xpath fecha: //*[@id="container"]/div[2]/div[1]/div[2]/div/div/span/text()
     - Xpath título: //*[@id="container"]/div[2]/div[1]/div[2]/div/h1/a/text()
@@ -1096,4 +1097,3 @@
     - Xpath fecha: /html/body/div[2]/section[1]/div/div[1]/div/div[4]/div/ul/li[1]/a/span[2]/text()
     - Xpath título: /html/body/div[2]/section[1]/div/div[1]/div/div[3]/div/h1/text()
     - Xpath contenido: /html/body/div[2]/section[2]/div[2]/div[1]/div/div[2]/div/text()
-
