@@ -264,9 +264,9 @@
     - URL ejemplo categoria: cnnchile.com/cultura/madonna-hospitalizada-infeccion-bacteriana-gira-mundial-the-celebration-tour_20230628/
     - XPATH enlances noticias:
     - URL noticia: https://www.cnnchile.com/mundo/tribunal-brasil-prohibe-bolsonaro-elecciones_20230630/
-    - Xpath fecha: /html/body/div[3]/header[2]/div[1]/span/text()
-    - Xpath título: /html/body/div[3]/header[2]/h1/text()
-    - Xpath contenido: /html/body/div[3]/main/div/div[1]/div/div[3]/div[1]/text()
+    - Xpath fecha: //header[@class="main-single-header"]/div/span/text()
+    - Xpath título: //header[@class="main-single-header"]/h1/text()
+    - Xpath contenido: //div[@class="main-single-body__content"]//p//text()
 
 13. - Nombre: El Desconcierto
     - Ubicación: Santiago, Región Metropolitana, Chile
@@ -286,9 +286,9 @@
     - URL ejemplo categoria: https://www.eldesconcierto.cl/tendencias/2023/06/27/apps-y-juegos-las-tendencias-actuales-que-estan-cambiando-la-forma-de-divertirse.html
     - XPATH enlances noticias:
     - URL noticia: https://www.eldesconcierto.cl/nacional/2023/06/28/servel-certifica-fuga-de-mas-de-mil-militantes-del-pdg-en-solo-un-mes-se-iba-a-acabar-luna-de-miel.html
-    - Xpath fecha: //*[@id="the-article-1"]/div[1]/div/header/div/text()
-    - Xpath título: //*[@id="the-article-1"]/div[1]/div/header/h1/text()
-    - Xpath contenido: //*[@id="the-article-1"]/div[2]/div/div[1]/div[3]/div[2]/div[1]/div[3]/text()
+    - Xpath fecha: //div[@class="the-article__about"]/text()[3]
+    - Xpath título: //h1[@class="the-article__title"]/text()
+    - Xpath contenido: //div[@class="js_the_content_nacional"]//p//text()
 
 14. - Nombre: El Ciudadano
     - Ubicación: Santiago, Región Metropolitana, Chile
@@ -308,9 +308,9 @@
     - URL ejemplo categoria: https://www.elciudadano.com/actualidad/hay-o-no-razones-para-subir-precios-de-rubros-agricolas/06/28/
     - XPATH enlances noticias:
     - URL noticia: https://www.elciudadano.com/actualidad/cientificos-de-chile-crean-antibiotico-eficaz-para-el-combate-de-bacterias-multirresistentes/06/28/
-    - Xpath fecha: //*[@id="t3-content"]/div[1]/div/article/aside/dl/dd[3]/time/text()
-    - Xpath título: //*[@id="t3-content"]/div[1]/div/article/header/h1
-    - Xpath contenido: //*[@id="t3-content"]/div[1]/div/article/section[3]/div/section
+    - Xpath fecha: //p[@class="text-muted"]/small/span/@data-date
+    - Xpath título: //h1[@class="mb-4 the_title"]/text()
+    - Xpath contenido: //article/div[2]/div[1]/div[2]//p//text()
     
 
 15. - Nombre: El Siglo
@@ -331,9 +331,9 @@
     - URL ejemplo categoria: https://elsiglo.cl/integrante-de-bancada-pc-debe-presidir-la-camara-baja-luis-cuello/
     - XPATH enlances noticias:
     - URL noticia: https://elsiglo.cl/salvador-allende-el-nacimiento-de-un-lider-y-luchador-social/
-    - Xpath fecha: //*[@id="main"]/div/header/div/div[1]/text()
-    - Xpath título: //*[@id="main"]/div/header
-    - Xpath contenido: //*[@id="main"]/div/div[2]
+    - Xpath fecha: //header[@class="entry-header"]//div[@class="date"]/a/text()
+    - Xpath título: //h1[@class="entry-title"]/text()
+    - Xpath contenido: //div[@class="entry-content"]//p//text()
   
 
 16. - Nombre: Chasquis
