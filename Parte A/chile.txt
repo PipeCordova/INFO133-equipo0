@@ -107,9 +107,9 @@
    - URL ejemplo categoria: https://www.lacuarta.com/espectaculos/noticia/tras-su-tenso-cruce-con-su-manager-fran-garcia-huidobro-revelo-el-consejo-que-le-dio-a-benjamin-lagos-de-gran-hermano/XJVPXOATDRHFTG6PSS57QDWRBU/
    - XPATH enlances noticias:
    - URL noticia: https://www.lacuarta.com/espectaculos/noticia/la-firme-con-priscilla-vargas-creo-que-a-la-sociedad-le-falta-amor-y-tratan-de-proyectarse-en-mi-y-repe/FJBSI3S2CRA7RDAJORJGO3XFSU/
-   - Xpath fecha: //*[@id="fusion-app"]/main/div/article/div[1]/div[2]/span[1]/strong/text()
-   - Xpath título: //*[@id="fusion-app"]/main/section[2]/header/div/h1
-   - Xpath contenido: //*[@id="fusion-app"]/main/div/article/div[3]/div
+   - Xpath fecha: //strong[@class="date primary-color"]/text()
+   - Xpath título: //h1[@class="h1 boldbold mb1 col-12 lg-col-9 md-col-8"]/text()
+   - Xpath contenido: //div[@class="col col-12 pl1 mn0 body"]//p//text()
  
 
 6. - Nombre: El Mostrador
@@ -129,9 +129,9 @@
    - URL ejemplo categoria: https://www.elmostrador.cl/cultura/2023/06/28/escritora-ucraniana-victoria-amelina-se-encuentra-en-estado-critico-tras-ataque-de-misil-en-pizzeria/
    - XPATH enlances noticias:
    - URL noticia: https://www.elmostrador.cl/noticias/pais/2023/06/28/en-ningun-pais-ha-resultado-academico-uc-cuestiona-comision-contra-la-desinformacion-del-gobierno/
-   - Xpath fecha: /html/body/main/div/div[2]/div/div/time/text()
-   - Xpath título: /html/body/main/div/div[2]/div/div/h1
-   - Xpath contenido: /html/body/main/div/div[2]/div/div/div[3]
+   - Xpath fecha: //div[@class="d-the-single"]/time/text()
+   - Xpath título: //div[@class="d-the-single"]/h1/text()
+   - Xpath contenido: //div[@class="d-the-single"]/div[3]/p//text()
 
    
 
@@ -152,9 +152,9 @@
    - URL ejemplo categoria: https://www.puentealtoaldia.com/conchali-hombre-baleado-durante-homenaje-en-memorial-narco-esta-en-riesgo-vital/
    - XPATH enlances noticias:
    - URL noticia: https://www.puentealtoaldia.com/municipalidad-de-puente-alto-lanza-campana-para-ir-en-apoyo-a-damnificados-por-sistema-frontal/
-   - Xpath fecha: /body/article/div[1]/div[2]/header/div/span/time/text()
-   - Xpath título: /body/article/div[1]/div[2]/header/h1
-   - Xpath contenido: /body/article/div[2]/div/div[1]/div/div[5]
+   - Xpath fecha: //header//time/text()
+   - Xpath título: //h1[@class="entry-title"]/text()
+   - Xpath contenido: //div[@class="td-post-content tagdiv-type"]//p//text()
 
 8. - Nombre: Publimetro
    - Ubicación: Santiago, Región Metropolitana, Chile
@@ -173,9 +173,9 @@
    - URL ejemplo categoria: https://www.publimetro.cl/deportes/2023/06/28/la-categorica-respuesta-de-marcelo-salas-a-los-jugadores-de-temuco-esta-todo-mezclado-de-mala-forma/
    - XPATH enlances noticias:
    - URL noticia: https://www.publimetro.cl/social/2023/06/28/actualizan-estado-de-salud-del-valiente-gatito-que-se-lanzo-al-rio-cachapoal-en-medio-de-las-inundaciones/
-   - Xpath fecha: //*[@id="skin-branding"]/div/div[2]/article/div[1]/time/text()
-   - Xpath título: //*[@id="skin-branding"]/div/div[1]/div/h1/
-   - Xpath contenido: //*[@id="skin-branding"]/div/div[2]/article
+   - Xpath fecha: //*[@id="skin-branding"]//time/text()
+   - Xpath título: //*[@id="skin-branding"]//h1/text()
+   - Xpath contenido: //div[@class="row"]/article/article//p//text()
    
    
 
@@ -196,9 +196,9 @@
    - URL ejemplo categoria: https://opinion.cooperativa.cl/opinion/transportes/sustentabilidad-sobre-rieles-la-oportunidad-de-la-electromovilidad/2023-06-22/112116.html
    - XPATH enlances noticias:
    - URL noticia: https://www.cooperativa.cl/noticias/economia/impuestos/ministro-marcel-se-mostro-optimista-sobre-el-avance-de-un-nuevo-pacto/2023-06-28/143656.html
-   - Xpath fecha: //*[@id="despliegue-titular"]/div[2]/div/time/text()
-   - Xpath título: //*[@id="despliegue-titular"]/h1
-   - Xpath contenido: //*[@id="cuerpo-ad"]
+   - Xpath fecha: //div[@class="fecha-publicacion"]/time/text()
+   - Xpath título: //*[@id="despliegue-titular"]/h1/text()
+   - Xpath contenido: //*[@id="cuerpo-ad"]//p//text()
 
 10. - Nombre: El Dinamo
     - Ubicación: Santiago, Región Metropolitana, Chile
@@ -218,9 +218,9 @@
     - URL ejemplo categoria: https://www.eldinamo.cl/educacion/2023/06/28/colegio-de-profesores-ratifico-paro-nacional-tras-reunion-con-el-mineduc/
     - XPATH enlances noticias:
     - URL noticia: https://www.eldinamo.cl/deportes/2023/06/28/los-errores-de-santiago-2023-que-reconoce-mayne-nicholls-y-sus-reparos-a-la-comision-investigadora/
-    - Xpath fecha: /html/body/div[4]/div/main/article/span[1]/text()
-    - Xpath título: /html/body/div[4]/div/main/article/h1
-    - Xpath contenido: /html/body/div[4]/div/main/article/div[4]
+    - Xpath fecha: //span[@class="fecha"]/text()
+    - Xpath título: //article[@class="principal"]/h1/text()
+    - Xpath contenido: //div[@class="the-content"]//p//text()
    	
     
 
@@ -242,9 +242,9 @@
     - URL ejemplo categoria: https://www.df.cl/empresas/industria/wom-eleva-reclamacion-contra-el-gobierno-ante-la-corte-suprema-y-acusa
     - XPATH enlances noticias:
     - URL noticia: https://www.df.cl/empresas/construccion/ministra-lopez-anuncia-366-mil-millones-para-la-reconstruccion-tras
-    - Xpath fecha: //*[@id="noticia-autor-tools"]/div[1]/span/text()
-    - Xpath título: //*[@id="titulo_articulo"]
-    - Xpath contenido: //*[@id="wrap-noticias"]/article/div[4]
+    - Xpath fecha: //span[@class="fecha-noticia"]/text()
+    - Xpath título: //*[@id="titulo_articulo"]/text()
+    - Xpath contenido: //*[@id="articleFree"]//p//text()
     
 12. - Nombre: CNN Chile
     - Ubicación: Santiago, Región Metropolitana, Chile
