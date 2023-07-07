@@ -23,8 +23,7 @@ cur = conn.cursor()
 
 
 def main():
-    consultar = True 
-    while consultar:
+    while True:
         consulta = input("Ingrese tu consulta SQL: ")
         try:
             cur.execute(consulta)
@@ -39,6 +38,6 @@ def main():
         if continuar.lower() == "n":
             conn.close()
             print("bye")
-            cosultar = False
+        break
             
 main()
