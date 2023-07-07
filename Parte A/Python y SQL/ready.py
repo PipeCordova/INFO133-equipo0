@@ -1,4 +1,4 @@
-# Programa para insertar Datos en la Base De Datos TareaParteA
+
 import mariadb
 import sys
 
