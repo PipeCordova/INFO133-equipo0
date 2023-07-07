@@ -491,9 +491,9 @@
     - URL ejemplo categoria: https://www.eha.cl/noticias/deportes
     - XPATH enlances noticias:
     - URL noticia: https://www.eha.cl/noticia/deportes/joven-nadador-cristobal-villouta-obtuvo-tres-medallas-de-oro-en-campeonato-nacional-de-invierno-de-natacion
-    - Xpath fecha: //*[@id="container"]/div[2]/div[1]/div[2]/div/div/span/text()
-    - Xpath título: //*[@id="container"]/div[2]/div[1]/div[2]/div/h1/a/text()
-    - Xpath contenido: //*[@id="container"]/div[2]/div[2]/div/div[1]/div[1]/div/p/text()
+    - Xpath fecha: //*[@id="container"]//div[@class="entry-meta meta-0 font-small mb-30"]/span/text()
+    - Xpath título: //h1[@class="post-title"]/a/text()
+    - Xpath contenido: //div[@class="content-desc"]//p//text()
 
 23. - Nombre: El Heraldo 
     - Ubicación: Linares, Región del Maule, Chile
@@ -513,9 +513,10 @@
     - URL ejemplo categoria: https://www.diarioelheraldo.cl/noticia/en-linares-fue-resaltada-celebracion-de-ano-nuevo-mapuche
     - XPATH enlances noticias:
     - URL noticia: https://www.diarioelheraldo.cl/noticia/provincia-de-linares-aun-4-personas-desaparecidas-tras-desborde-de-rios
-    - Xpath fecha: /html/body/div[2]//div/text()[2]
-    - Xpath título: /html/body/div[2]/div[2]/div[1]/div[2]/div[1]/div[2]/text()
-    - Xpath contenido: /html/body/div[2]/div[2]/div[1]/div[2]/div[1]/div[6]/text()
+    - Xpath fecha: //div[@class="categoria"]/text()[2]
+    - Xpath título: //div[@class="titulo_destacada"]/text()
+    - Xpath contenido: //div[@class="contenido_not"]//text()
+############# HASTA AQUI EN LA BASE DE DATOS (07-07-2023   0:27 hrs) #####################
 
 24. - Nombre: VerticeTV
     - Ubicación: Puerto Montt, Región de Los Lagos, Chile
