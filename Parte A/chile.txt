@@ -558,9 +558,9 @@
     - URL ejemplo categoria: https://www.rioenlinea.cl/por-abuso-sexual-detienen-a-hombre-que-habria-agredido-a-escolar-dentro-de-una-micro-en-valdivia/
     - XPATH enlances noticias:
     - URL noticia: https://www.rioenlinea.cl/salud-declara-riesgo-sanitario-en-vertedero-morrompulli-e-inicia-sumario-contra-municipio-y-empresa/
-    - Xpath fecha: /html/body/div[3]/main/div[1]/section/div/header/div[1]/span/text()
-    - Xpath título: /html/body/div[3]/main/div[1]/section/div/header/h1
-    - Xpath contenido: /html/body/div[3]/main/div[1]/section/div/div[1]/div/div[1]/div/div[1]
+    - Xpath fecha: //span[@class="main-single-header-bar__text"]/text()[1]
+    - Xpath título: //h1[@class="main-single-header__title"]/text()
+    - Xpath contenido: //div[@class="main-single__content"]//p//text()
 
 26. - Nombre: ITV Patagonia
     - Ubicación: Punta Arenas, Región de Magallanes y de la Antártica Chilena, Chile
@@ -580,9 +580,9 @@
     - URL ejemplo categoria: https://www.itvpatagonia.com/noticias/politica/11-05-2023/senado-despacha-proyecto-que-establece-un-royalty-minero-por-la-explotacion-de-la-mineria-y-del-litio/
     - XPATH enlances noticias:
     - URL noticia: https://www.itvpatagonia.com/noticias/regional/10-06-2023/joven-magallanico-de-17-anos-triunfa-en-el-tenis-de-mesa-y-se-convierte-en-un-ejemplo-de-perseverancia/
-    - Xpath fecha: //*[@id="tdi_89"]/div/div[2]/div/div[4]/div/time
+    - Xpath fecha: //h1[@class="tdb-title-text"]/text()
     - Xpath título: //*[@id="tdi_73"]/div/div[2]/div/div[3]/div/h1 
-    - Xpath contenido: //*[@id="tdi_89"]/div/div[2]/div/div[6]/div
+    - Xpath contenido: //div[@class="tdb-block-inner td-fix-index"]//p//text()
 
 27. - Nombre: La Prensa Austral
     - Ubicacion: Punta Arenas, Región de Magallanes y la Antártica Chilena, Chile
@@ -602,9 +602,9 @@
     - URL ejemplo categoria: https://laprensaaustral.cl/2023/06/27/cifra-de-desaparecidos-baja-a-tres-y-hay-9-610-personas-aisladas/
     - XPATH enlances noticias:
     - URL noticia: https://laprensaaustral.cl/2023/06/28/espanol-gano-las-tres-categorias-femeninas-y-los-clubes-de-rio-gallegos-campeonaron-en-varones/
-    - Xpath fecha: /html/body/div[2]/div[4]/div/div[1]/div[2]/div[1]/div[3]/span[2]/text()
-    - Xpath título: /html/body/div[2]/div[4]/div/div[1]/div[2]/div[1]/h1
-    - Xpath contenido: //*[@id="HOTWordsTxt"]
+    - Xpath fecha: //div[@class="fecha"]/span/text()
+    - Xpath título: //h1[@class="droid"]/text()
+    - Xpath contenido: //*[@id="HOTWordsTxt"]//p//text()
 
 28. - Nombre: El Pingüino
     - Ubicacion: Punta Arenas, Región de Magallanes y la Antártica Chilena, Chile
@@ -624,9 +624,9 @@
     - URL ejemplo categoria: https://elpinguino.com/noticia/2023/06/22/arturo-vidal-asume-su-rol-en-la-seleccion-chilena-la-fuerza-de-los-jovenes-nos-va-a-llevar-a-otro-mundial
     - XPATH enlances noticias:
     - URL noticia: https://elpinguino.com/noticia/2023/06/27/conductor-resulto-con-lesiones-leves-tras-volcar-su-camion-en-la-ruta-ch-257-
-    - Xpath fecha:/html/body/div[2]/div[2]/div[2]/div[1]/div[2]/text()
-    - Xpath título:/html/body/div[4]/div[5]/div[1]/div[1]/section[2]
-    - Xpath contenido:/html/body/div[2]/div[2]/div[2]/div[3]
+    - Xpath fecha: /html/body/div[2]/div[2]/div[2]/div[1]/div[2]/text()
+    - Xpath título: //div[@class="site3-content site3-single"]/h1/text()
+    - Xpath contenido: //div[@class="sit3-single-body"]//p//text()
     
 
 29. - Nombre: El Divisadero
@@ -647,9 +647,9 @@
     - URL ejemplo categoria: http://www.eldivisadero.cl/_noticia/Diputada-Raphael-pide-informaci%C3%B3n-a-las-Serem%C3%ADas-por-posibles-v%C3%ADnculos-con-Democracia-Viva/NzA5ODY=
     - XPATH enlances noticias:
     - URL noticia: http://www.eldivisadero.cl/_noticia/Ley-de-Conciliaci%C3%B3n-de-Vida-Laboral-y-Familiar-Las-acciones-que-tendr%C3%A1n-que-tomar-pymes-y-empresas-/NzEwMDU=
-    - Xpath fecha: /html/body/div[4]/div[5]/div[1]/div[1]/section[1]/div[5]
-    - Xpath título: /html/body/div[4]/div[5]/div[1]/div[1]/section[1]/div[2]
-    - Xpath contenido: /html/body/div[4]/div[5]/div[1]/div[1]/section[2]
+    - Xpath fecha: //section[@class="enc centro"]/div[5]/text()
+    - Xpath título: //div[@class="titular"]/text()
+    - Xpath contenido: //section[@class="texto centro"]//p//text()
   
   
    
@@ -671,9 +671,9 @@
     - URL ejemplo categoria: https://canalvtv.cl/policial/mas-de-5-mil-kilos-de-droga-han-sido-sacados-de-circulacion-en-aconcagua-en-el-marco-del-plan-cannabis-2022-2023/2022/12/26/63a99675df86120009d8d197
     - XPATH enlances noticias:
     - URL noticia: https://canalvtv.cl/cultura-y-deportes/clasico-amistoso-entre-trasandino-y-union-san-felipe-se-jugara-el-1-de-febrero/2023/01/31/63d98b0f5214e1000a851c73
-    - Xpath fecha: //*[@id="row-component-/cultura-y-deportes/clasico-amistoso-entre-trasandino-y-union-san-felipe-se-jugara-el-1-de-febrero/2023/01/31/63d98b0f5214e1000a851c73"]/div/div[3]/div/p/text()
-    - Xpath título: //*[@id="row-component-/cultura-y-deportes/clasico-amistoso-entre-trasandino-y-union-san-felipe-se-jugara-el-1-de-febrero/2023/01/31/63d98b0f5214e1000a851c73"]/div/div[4]/div/p/text()
-    - Xpath contenido: //*[@id="row-component-/cultura-y-deportes/clasico-amistoso-entre-trasandino-y-union-san-felipe-se-jugara-el-1-de-febrero/2023/01/31/63d98b0f5214e1000a851c73"]/div/div/div/p/span/text()
+    - Xpath fecha: //div[@class="layerTwo"]/p/text()[2]
+    - Xpath título: //div[@class="layerTwo"]/p/text()[2]
+    - Xpath contenido: //*[@id="row-component-/cultura-y-deportes/clasico-amistoso-entre-trasandino-y-union-san-felipe-se-jugara-el-1-de-febrero/2023/01/31/63d98b0f5214e1000a851c73"]/div/div/div//p//text()
 
 31. - Nombre: La Prensa de Curicó
     - Ubicacion: Curicó, Región del Maule, Chile
