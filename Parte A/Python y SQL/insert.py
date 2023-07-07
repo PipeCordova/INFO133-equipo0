@@ -37,9 +37,9 @@ def ubicacion():
     else:
         print("\nUBICACIÓN NO INGRESADA\nTe faltó ingresar algun dato!!!\n")
 
-def medio_prensa():
+def medio_prensa(m):
     # Insertar datos en la tabla medio_prensa
-    id_medio = input("Ingrese el ID del medio de prensa: ").upper().strip()
+    id_medio = m
     nombre_medio = input("Ingrese el nombre del medio de prensa: ").title().strip()
     fundacion = int(input("Ingrese el AÑO de fundación: "))
     if (fundacion == ""): fundacion = None;
@@ -53,7 +53,7 @@ def medio_prensa():
         print("\nMEDIO DE PRENSA NO INGRESADO\nTe faltó ingresar algun dato!!!\n")
 
 
-def red_social():
+def red_social(m):
     # Insertar datos en la tabla red_social
     print("\nOpciones de redes sociales")
     print("\t(1) Instagram\n\t(2) Facebook\n\t(3) Twitter")
@@ -64,9 +64,10 @@ def red_social():
     cuenta_red_social = input("Ingrese el nombre de la cuenta en la red social (@nombrecuenta para IG): ").strip()
     seguidores = input("Ingrese el número de seguidores (INT): ").strip()
     if(seguidores == ""): seguidores = None;
-    act_seguidores = input("Ingrese la última actualización de los seguidores (YYYY-MM-DD): ").strip()
+    #act_seguidores = input("Ingrese la última actualización de los seguidores (YYYY-MM-DD): ").strip()
+    act_seguidores = "2023-07-06" # Aqui cambiar a la fecha actual, es más comodo
     if(act_seguidores == ""): act_seguidores = None;
-    id_medio = input("Ingrese el id_medio (FK): ").upper().strip()
+    id_medio = m 
 
     if(nombre_red_social != "" and cuenta_red_social != "" and id_medio !=""):
         cur.execute("INSERT INTO red_social (nombre, cuenta, seguidores, act_seguidores, id_medio) VALUES (%s, %s, %s, %s, %s)", (nombre_red_social, cuenta_red_social, seguidores, act_seguidores, id_medio))
@@ -74,11 +75,10 @@ def red_social():
     else:
         print("\nRED SOCIAL NO INGRESADA\nTe faltó ingresar algun dato!!!\n")
 
-def sitio_web():
+def sitio_web(m):
     # Insertar datos en la tabla sitio_web
     url_sw = input("Ingrese la URL del sitio web: ").strip()
-    id_medio = input("Ingrese el id_medio (FK): ").upper().strip()
-
+    id_medio = m
     if(url_sw != "" and id_medio != ""):
         cur.execute("INSERT INTO sitio_web (url_sw, id_medio) VALUES (%s, %s)", (url_sw, id_medio))
         print("SE HA INGRESADO CORRECTAMENTE\n")
@@ -114,28 +114,39 @@ def categoria():
     else:
         print("\nCATEGORIA NO INGRESADA\nTe faltó ingresar algun dato!!!\n")
 
-def fundado_por():
+def fundado_por(m):
     # Insertar datos en la tabla fundado_por
     nombre_fundador = input("Ingrese el nombre del fundador: ").title().strip()
-    id_medio = input("Ingrese el id_medio (FK): ").upper().strip()
+    id_medio = m
     if(nombre_fundador != "" and id_medio != ""):
         cur.execute("INSERT INTO fundado_por (id_medio, nombre) VALUES (%s, %s)", (id_medio, nombre_fundador))
         print("SE HA INGRESADO CORRECTAMENTE\n")
     else:
         print("\nFUNDADO_POR NO INGRESADO\nTe faltó ingresar algun dato!!!\n")
 
+def ingrese(m):
+    print(f"ID MEDIO ACTUAL = {m}")
+    m = input("Ingrese nuevo ID MEDIO (MED00): ").upper().strip()
+    while(m == ""):
+        m = input("Ingrese ID no vacío (MED00): ").upper().strip()
+    print()
+    return m
+
 
 def main():
+    # Falta agregar la noticia del MED17
+    m = input("Ingrese ID del medio sobre el que quiere trabajar: ").upper()
     flg = True;
     while (flg):
-        print("OPCIONES")
+        print(f"OPCIONES ({m})")
         print("(1) Agregar Ubicación")
         print("(2) Agregar Medio de Prensa")
         print("(3) Agregar Red Social")
         print("(4) Agregar Sitio Web")
         print("(5) Agregar Noticia")
         print("(6) Agregar Categoría")
-        print("(7) Agregar Fundador\n")
+        print("(7) Agregar Fundador")
+        print("(8) Cambiar ID Medio\n")
 
         opcion = input("Seleccione una opcion (cualquier letra para terminar): ")
 
@@ -143,13 +154,13 @@ def main():
             ubicacion()
             conn.commit()
         elif(opcion == "2"):
-            medio_prensa()
+            medio_prensa(m)
             conn.commit()
         elif(opcion == "3"):
-            red_social()
+            red_social(m)
             conn.commit()
         elif(opcion == "4"):
-            sitio_web() 
+            sitio_web(m) 
             conn.commit()
         elif(opcion == "5"):
             noticia()
@@ -158,8 +169,10 @@ def main():
             categoria()  
             conn.commit()
         elif(opcion == "7"):
-            fundado_por()
+            fundado_por(m)
             conn.commit()
+        elif(opcion == "8"):
+            m = ingrese(m)
         else: 
             flg = False  
 

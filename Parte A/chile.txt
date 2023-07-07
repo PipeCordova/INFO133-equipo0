@@ -377,8 +377,8 @@
     - URL principal categoria: https://www.elrancaguino.cl/category/politica/
     - URL ejemplo categoria: https://www.elrancaguino.cl/2023/06/26/proponen-fondo-de-500-millones-de-dolares-para-la-reconstruccion/
     - XPATH enlances noticias:
+    # NO ME DEJA PROBAR NADA NO SE PORQUE...
     - URL noticia: https://www.elrancaguino.cl/2023/06/28/delantero-de-lanus-suena-como-posible-refuerzo-de-ohiggins/
-    # Este no me dejaba probar los xpath no se pq
     - Xpath fecha: /html/body/div[2]/section[2]/div/div[1]/div/div[4]/div/ul/li[2]/span[2]/text()
     - Xpath título: //h1[@class="elementor-heading-title elementor-size-default"]/text()
     - Xpath contenido: /html/body/div[2]/section[2]/div/div[1]/div/div[10]/div/text()
@@ -471,7 +471,7 @@
     - URL noticia: https://www.elandino.cl/liceo-mixto-realizo-emotiva-ceremonia-de-despedida-al-profesor-modesto-montenegro-gonzalez/
     - Xpath fecha: //div[@class="post-date-bd"]//span/text()
     - Xpath título: //h1[@class="entry-title"]/text()
-    - Xpath contenido: //*[@class="post-id"]/div[3]    #falta
+    - Xpath contenido: //div[@class="post-content-bd"]//p//text()
 
 22. - Nombre: El Heraldo Austral
     - Ubicación: Puerto Varas, Region de los lagos, Chile
