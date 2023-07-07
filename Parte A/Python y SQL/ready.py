@@ -19,10 +19,11 @@ except mariadb.Error as e:
 
 
 cur = conn.cursor()
-consultar = True   
+
 
 
 def main():
+    consultar = True 
     while consultar:
         consulta = input("Ingrese tu consulta SQL: ")
         try:
