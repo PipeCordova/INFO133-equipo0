@@ -61,11 +61,16 @@ def red_social(m):
     if(opcion=='1'): nombre_red_social = "Instagram"
     elif(opcion=='2'): nombre_red_social = "Facebook"
     elif(opcion=='3'): nombre_red_social = "Twitter"
-    cuenta_red_social = input("Ingrese el nombre de la cuenta en la red social (@nombrecuenta para IG): ").strip()
+    if(opcion == '1'): cuenta_red_social = input("Ingrese el nombre de la cuenta de Instagram (@nombrecuenta): ").strip()
+    elif(opcion == '2'): cuenta_red_social = input("Ingrese el nombre de la cuenta de Facebook: ").strip()
+    elif(opcion == '3'):cuenta_red_social = input("Ingrese el nombre de la cuenta de Twitter: ").strip()
+    else:
+        print("OPCION INVÁLIDA!!")
+        exit()
     seguidores = input("Ingrese el número de seguidores (INT): ").strip()
     if(seguidores == ""): seguidores = None;
     #act_seguidores = input("Ingrese la última actualización de los seguidores (YYYY-MM-DD): ").strip()
-    act_seguidores = "2023-07-06" # Aqui cambiar a la fecha actual, es más comodo
+    act_seguidores = "2023-07-08" # Aqui cambiar a la fecha actual, es más comodo
     if(act_seguidores == ""): act_seguidores = None;
     id_medio = m
 

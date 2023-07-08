@@ -788,27 +788,27 @@
     - Xpath título: //h1[@class="title"]/text()
     - Xpath contenido: //div[@class="field-item even"]//p//text()
 
-36. - Nombre: El Coquimbano
-    - Ubicacion: Coquimbo, Región de Coquimbo, Chile
-    - Año fundación: 2013
-    - Cobertura: Regional
-    - Fundador(es): Municipalidad de Coquimbo
-    - Sitio web: https://www.elcoquimbano.cl/
-    - Cuenta IG: diarioscomunales
-    - Cuenta FB: El Coquimbano
-    - Cuenta TW: El Conquimbano
-    - Seguidores IG: 1617
-    - Seguidores FB: 17000
-    - Seguidores TW: 16300
-    - Actividad Seguidores: 30/06/2023
-    - Categoría(s): Comunales, Pesca, Panoramas, Deportes, Tendencias, Recuerdo, Opinion, Legales
-    - URL principal categoria: https://www.elcoquimbano.cl/category/deportes/
-    - URL ejemplo categoria: https://www.elcoquimbano.cl/2023/06/25/coquimbo-unido-paso-a-semifinales-tras-eliminar-por-penales-a-la-serena/
+36. - Nombre: Diario Estrategia
+    - Ubicacion: Santiago
+    - Año fundación: 1978
+    - Cobertura: Internacional
+    - Fundador(es): Víctor Manuel Ojeda Méndez
+    - Sitio web: https://www.diarioestrategia.cl/
+    - Cuenta IG: esstrategia.cl
+    - Cuenta FB: 
+    - Cuenta TW: 
+    - Seguidores IG: 113
+    - Seguidores FB: 
+    - Seguidores TW: 
+    - Actividad Seguidores: 08-07-2023
+    - Categoría(s): 
+    - URL principal categoria: 
+    - URL ejemplo categoria: 
     - XPATH enlances noticias:
-    - URL noticia: https://www.elcoquimbano.cl/2023/06/30/desarrollaran-granjas-marinas-para-potenciar-la-acuicultura-de-pequena-escala/
-    - Xpath fecha: //*[@id="mvp-post-head"]/div/div[2]/div[1]/span[2]/time/text()
-    - Xpath título: //*[@id="mvp-post-head"]/h1
-    - Xpath contenido: //*[@id="mvp-content-main"]
+    - URL noticia: https://www.diarioestrategia.cl/texto-diario/mostrar/4362027/tasa-interes-creditos-consumo-aumento-junio
+    - Xpath fecha: //span[@class="article_date"]/span/text()
+    - Xpath título: //h1[@class="article_title"]/text()
+    - Xpath contenido: //div[@id="article_content"]/div//p//text()
 
 37. - Nombre: Online Tarapaca
     - Ubicacion: Tarapacá, Región de Tarapacá, Chile
@@ -897,6 +897,28 @@
     - Xpath fecha: //span[@class="posted-on"]/text()
     - Xpath título: //h1[@class="entry-title single-post-title"]/text()
     - Xpath contenido: //div[@class="entry-content article-body"]//p//text()
+
+41. - Nombre: The Santiago Times
+    - Ubicacion: Santiago
+    - Año fundación: 1991
+    - Cobertura: Internacional
+    - Fundador(es): Steve Anderson
+    - Sitio web: https://santiagotimes.cl/
+    - Cuenta IG: thesantiagotimes
+    - Cuenta FB: 
+    - Cuenta TW: 
+    - Seguidores IG: 508
+    - Seguidores FB: 
+    - Seguidores TW: 
+    - Actividad Seguidores: 08-07-2023
+    - Categoría(s): Nacional, Latino America, Canada, World, Deporte
+    - URL principal categoria: 
+    - URL ejemplo categoria: 
+    - XPATH enlances noticias:
+    - URL noticia: https://santiagotimes.cl/2022/02/10/puerto-montt-lender-priest-defrocked-for-canonical-offenses/
+    - Xpath fecha: //header[@class="entry-header clearfix"]/div/span/a/text()
+    - Xpath título: //h1[@class="entry-title"]/text()
+    - Xpath contenido: //div[@class="entry-content clearfix"]//p//text()
 
 42. - Nombre: 24 Horas
     - Ubicacion: Santiago, Región Metropolitana, Chile
@@ -1060,12 +1082,12 @@
     - Cobertura: Nacional
     - Fundador(es): Municipalidad de San José de la Mariquina
     - Sitio web: https://www.diariosanjose.cl/
-    - Cuenta IG: diariosurlosrios
+    - Cuenta IG: 
     - Cuenta FB: Diario San José
-    - Cuenta TW: Grupo DiarioSur Los Ríos | Prensa
-    - Seguidores IG: 18800
+    - Cuenta TW: 
+    - Seguidores IG: 
     - Seguidores FB: 2200
-    - Seguidores TW: 10900
+    - Seguidores TW: 
     - Actividad Seguidores: 30/06/2023
     - Categoría(s): Noticias de Mariquina, Actualidad, Agro y Ganadería, Ciencia y Tecnología, Panoramas y Cultura, Deportes, Educación, Emergencias, Fruticultura del Sur, Emprendimiento y Negocios, Opinión, Política, Salud, Turismo
     - URL principal categoria: https://www.diariosanjose.cl/noticias/politica
