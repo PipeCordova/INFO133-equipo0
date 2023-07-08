@@ -787,7 +787,7 @@
     - Xpath fecha: //div[@class="submitted"]/small/span/text()[2]
     - Xpath título: //h1[@class="title"]/text()
     - Xpath contenido: //div[@class="field-item even"]//p//text()
-## aqui quede..
+
 36. - Nombre: El Coquimbano
     - Ubicacion: Coquimbo, Región de Coquimbo, Chile
     - Año fundación: 2013
@@ -828,9 +828,9 @@
     - URL ejemplo categoria: https://www.tarapacaonline.cl/2023/05/08/comunes-pedira-recuento-de-votos-en-tarapaca-tras-perder-su-unico-escano/
     - XPATH enlances noticias: //div//h3/a/@href
     - URL noticia: https://www.tarapacaonline.cl/2023/05/02/gobierno-niega-que-chile-este-en-recesion-tecnica-tras-el-mal-imacec-de-marzo/
-    - Xpath fecha: /html/body/div/div[4]/div/div/article/header/p/span[1]/a/text()
-    - Xpath título: /html/body/div/div[4]/div/div/article/header/h1
-    - Xpath contenido: /html/body/div/div[4]/div/div/article/div
+    - Xpath fecha: //span[@class="entry-meta-date updated"]/a/text()
+    - Xpath título: //h1[@class="entry-title"]/text()
+    - Xpath contenido: //div[@class="entry-content clearfix"]//p//text()
 
 38. - Nombre: HDN Santa Cruz
     - Ubicacion: Santa Cruz, Región de O’Higgins, Chile
@@ -850,9 +850,9 @@
     - URL ejemplo categoria: https://hdn.cl/noticias/policial/2023/06/12/subida-de-rio-habria-provocado-la-muerte-de-haitiano-en-rancagua/
     - XPATH enlances noticias: //div//h3/a/@href
     - URL noticia: https://hdn.cl/noticias/politica/2018/10/01/presidente-pinera-valora-triunfo-de-chile-en-la-corte-internacional-de-justicia/
-    - Xpath fecha: /html/body/div[6]/div/div[2]/div/div/div[1]/div/article/div[1]/header/div/span/time/text()
-    - Xpath título: /html/body/div[6]/div/div[2]/div/div/div[1]/div/article/div[1]/header/h1
-    - Xpath contenido: /html/body/div[6]/div/div[2]/div/div/div[1]/div/article/div[3]
+    - Xpath fecha: //div[@class="td-post-header td-pb-padding-side"]/header/div/span/time/text()
+    - Xpath título: //h1[@class="entry-title"]/text()
+    - Xpath contenido: //div[@class="td-post-content td-pb-padding-side"]//p//text()
 
 39. - Nombre: La Tribuna
     - Ubicacion: Los Ángeles, Región del BioBio, Chile
@@ -872,9 +872,9 @@
     - URL ejemplo categoria: https://www.latribuna.cl/salud/2023/06/28/diez-regiones-disminuyen-sus-casos-confirmados-de-covid-19.html
     - XPATH enlances noticias:
     - URL noticia: https://www.latribuna.cl/deportes/2023/06/28/los-titulos-mundiales-de-argentina-y-uruguay-seran-usados-como-gancho-para-la-candidatura-2030.html
-    - Xpath fecha: //*[@id="post"]/div[2]/div/div[1]/div[1]/time/text()
-    - Xpath título: //*[@id="post"]/div[2]/div/div[1]/h1
-    - Xpath contenido: //*[@id="post"]/div[2]/div/div[1]
+    - Xpath fecha: //div[@class="post-main"]/div/time/text()
+    - Xpath título: //div[@class="post-main"]/h1/text()
+    - Xpath contenido: //div[@class="post-main"]//p//text()
 
 40. - Nombre: La Discusión
     - Ubicacion: Chillán, Región de Ñuble, Chile
@@ -894,9 +894,9 @@
     - URL ejemplo categoria: https://www.ladiscusion.cl/proponen-fondo-de-us500-millones-para-la-reconstruccion/
     - XPATH enlances noticias: //div//h2/a/@href
     - URL noticia: https://www.ladiscusion.cl/tomas-barrios-fue-el-chileno-mas-beneficiado-en-el-ranking-atp/
-    - Xpath fecha: /html/body/div[4]/div[2]/div/div/div[1]/div/div/article/header/div[1]/div[1]/ul/li[2]/span[2]/time/text()
-    - Xpath título: /html/body/div[4]/div[2]/div/div/div[1]/div/div/article/header/h1
-    - Xpath contenido: /html/body/div[4]/div[2]/div/div/div[1]/div/div/article/div
+    - Xpath fecha: //span[@class="posted-on"]/text()
+    - Xpath título: //h1[@class="entry-title single-post-title"]/text()
+    - Xpath contenido: //div[@class="entry-content article-body"]//p//text()
 
 42. - Nombre: 24 Horas
     - Ubicacion: Santiago, Región Metropolitana, Chile
@@ -916,9 +916,9 @@
     - URL ejemplo categoria: https://www.24horas.cl/deportes/futbol-nacional
     - XPATH enlances noticias: //div/a/@href
     - URL noticia: https://www.24horas.cl/actualidad/nacional/fotos-pelea-concejo-municipal-lo-espejo
-    - Xpath fecha: //*[@id="top"]/div[5]/div[1]/div[1]/div[1]/section[1]/div[2]/p
-    - Xpath título: //*[@id="#contenido-ppal"]
-    - Xpath contenido: //*[@id="top"]/div[5]/div[1]/div[1]/div[1]/section[2]/div[2]
+    - Xpath fecha: //p[@class="fecha"]/text()
+    - Xpath título: //h1[@class="tit"]/text()
+    - Xpath contenido: //div[@class="CUERPO"]//p//text()
 
 43. - Nombre: Meganoticias
     - Ubicacion: Santiago, Región Metropolitana, Chile
@@ -937,10 +937,10 @@
     - URL principal categoria: https://www.meganoticias.cl/nacional/
     - URL ejemplo categoria: https://www.meganoticias.cl/nacional/418277-seremi-vivienda-maule-traspasos-fundacion-urbanismo-social-investigacion-28-06-2023.html
     - XPATH enlances noticias: //div/a/@href
-    - URL noticia: https://www.meganoticias.cl/tendencias/418272-que-edad-tiene-madonna.html
-    - Xpath fecha: //article/div[1]/div[2]/div/div[2]/time
-    - Xpath título: //article/div[1]/div[2]/div/h1
-    - Xpath contenido: //article/div[1]/div[2]/div/div[3]
+    - URL noticia: https://www.meganoticias.cl/nacional/419196-dos-personas-murieron-impacto-de-bala-pucon-region-de-la-araucania-8-7-2023.html
+    - Xpath fecha: //div[@class="fechaHora"]/time/text()
+    - Xpath título: //div[@class="contenedor-contenido"]/h1/text()
+    - Xpath contenido: //div[@class="contenido-nota"]//p//text()
 
 
 44. - Nombre: T13
@@ -961,9 +961,9 @@
     - URL ejemplo categoria: https://www.t13.cl/noticia/politica/gobierno-pide-separar-las-cosas-discusion-por-nuevo-pacto-fiscal-convenios-28-6-2023
     - XPATH enlances noticias: //div/a/@href
     - URL noticia: https://www.deportes13.cl/futbol-nacional/en-medio-de-varios-conflictos-deportes-temuco-dio-el-batacazo-y-elimino-a
-    - Xpath fecha: /html/body/main/div[1]/div/article/div[2]/time/text()
-    - Xpath título: /html/body/main/div[1]/div/article/h1
-    - Xpath contenido: /html/body/main/div[1]/div/article/div[4]/div[2]
+    - Xpath fecha: //div[@class="meta"]/time/text()
+    - Xpath título: //div[@class="row articulo-detalle-content"]/article/h1/text()
+    - Xpath contenido: //div[@class="cuerpo-content"]//p//text()
 
 45. - Nombre: El Ranco
     - Ubicacion: La Unión, Region de Los Rios, Chile
@@ -983,9 +983,9 @@
     - URL ejemplo categoria: https://diarioelranco.cl/index.php/2023/06/28/municipio-de-lago-ranco-llevo-canastas-de-alimento-a-familias-de-la-region-de-nuble-afectadas-por-temporal/
     - XPATH enlances noticias: //div//h3/a/@href
     - URL noticia: https://diarioelranco.cl/index.php/2023/06/28/dos-adultos-fueron-detenidos-por-receptacion-de-especies-en-rio-bueno/
-    - Xpath fecha: 
-    - Xpath título: //*[@id="tdi_54"]/div/div[2]/div/div[1]/div/h1/text()
-    - Xpath contenido: 
+    - Xpath fecha:  NO SE PUEDE PQ ES UNA IMAGEN
+    - Xpath título: //h1[@class="tdb-title-text"]/text()
+    - Xpath contenido: //div[@class="tdb-block-inner td-fix-index"]//p//text()
 
     
 46. - Nombre: Diario Paillaco
@@ -1006,9 +1006,9 @@
     - URL ejemplo categoria: https://www.diariopaillaco.cl/noticia/educacion/2023/06/ya-estan-abiertas-las-postulaciones-para-reconocimiento-profetp
     - XPATH enlances noticias:
     - URL noticia: https://www.diariopaillaco.cl/noticia/actualidad/2023/06/autoridades-valoran-recuperacion-del-servicio-de-agua-potable-para-familias-de-la-aguada
-    - Xpath fecha: //*[@id="printableArea"]/small/text()
+    - Xpath fecha: //div[@id="printableArea"]/small/text()
     - Xpath título: //*[@id="printableArea"]/h1/text()
-    - Xpath contenido: //*[@id="printableArea"]/div[2]/div[2]/p/text()
+    - Xpath contenido: //*[@id="printableArea"]/div[2]/div[2]//p//text()
 
 47. - Nombre: El Observador
     - Ubicacion: Quillota, Región de Valparaíso, Chile
@@ -1028,9 +1028,9 @@
     - URL ejemplo categoria: https://www.observador.cl/villa-alemana-detienen-a-cuatro-personas-por-violento-asalto/
     - XPATH enlances noticias: //div//h2/a/@href
     - URL noticia: https://www.observador.cl/anfp-reprogramo-partido-entre-union-la-calera-y-colo-colo-por-copa-chile/
-    - Xpath fecha: //article/header/div[1]/div[1]/span[1]/a/span[1]/text()
-    - Xpath título: //article/header/h1
-    - Xpath contenido: //article/div
+    - Xpath fecha: //span[@class="entry-date published updated"]/text()
+    - Xpath título: //h1[@class="entry-title"]/text()
+    - Xpath contenido: //div[@class="page-content"]//p//text()
     
 48. - Nombre: El Insular
     - Ubicacion: Chiloe, Region de Los lagos, Chile
@@ -1051,7 +1051,7 @@
     - XPATH enlances noticias: //div//h2/a/@href
     - URL noticia: https://elinsular.cl/entretencion/2023/06/09/banda-femenina-chilena-kiepja-se-suma-al-concierto-de-los-alemanes-haggard-en-chile/
     - Xpath fecha: //*[@id="single-post-meta"]/span[3]/text()
-    - Xpath título: //*[@id="the-post"]/header/div/h1/text()
+    - Xpath título: //h1[@class="post-title entry-title"]/text()
     - Xpath contenido: //*[@id="the-post"]/div[2]/p//text()
     
 49. - Nombre: Diario San José
@@ -1095,6 +1095,6 @@
     - URL ejemplo categoria: https://diariolongino.cl/gobierno-de-tarapaca-permitio-incluir-a-iquique-en-gira-nacional-de-voley-femenino/
     - XPATH enlances noticias: //div//h3/a/@href
     - URL noticia: https://diariolongino.cl/chocolate-las-bondades-de-un-producto-rico-y-saludable-para-consumir-en-invierno/
-    - Xpath fecha: /html/body/div[2]/section[1]/div/div[1]/div/div[4]/div/ul/li[1]/a/span[2]/text()
-    - Xpath título: /html/body/div[2]/section[1]/div/div[1]/div/div[3]/div/h1/text()
-    - Xpath contenido: /html/body/div[2]/section[2]/div[2]/div[1]/div/div[2]/div/text()
+    - Xpath fecha: //div[@class="elementor-widget-container"]/ul/li/a/span[2]/text()
+    - Xpath título: //h1[@class="elementor-heading-title elementor-size-default"]/text()
+    - Xpath contenido: //div[@class="elementor-widget-container"]//p//text()
