@@ -693,9 +693,9 @@
     - URL ejemplo categoria: https://new.diariolaprensa.cl/index.php/2023/04/21/talca-camina-a-convertirse-en-una-ciudad-inteligente/
     - XPATH enlances noticias:
     - URL noticia: https://new.diariolaprensa.cl/index.php/2023/06/28/manana-se-juega-frente-a-santiago-morning/
-    - Xpath fecha: /html/body/div[6]/div[2]/div/div[2]/div[1]/div/article/div[1]/header/div/span/time/time()
-    - Xpath título: /html/body/div[6]/div[2]/div/div[2]/div[1]/div/article/div[1]/header/h1
-    - Xpath contenido: /html/body/div[6]/div[2]/div/div[2]/div[1]/div/article/div[3]
+    - Xpath fecha: //div[@class="td-module-meta-info"]/span/time/text()
+    - Xpath título: //h1[@class="entry-title"]/text()
+    - Xpath contenido: //div[@class="td-post-content tagdiv-type"]//p//text()
     
 
 
@@ -717,9 +717,9 @@
     - URL ejemplo categoria: https://www.chvnoticias.cl/deportes/
     - XPATH enlances noticias:
     - URL noticia: https://www.chvnoticias.cl/nacional/fabiola-campillai-emplaza-gobierno-muerte-victima-trauma-ocular-jorge-salvo_20230630/
-    - Xpath fecha: /html/body/main/div/div[2]/article/header/div[1]/div[1]/time/text()
-    - Xpath título: /html/body/main/div/div[2]/article/header/div[2]/h1
-    - Xpath contenido: /html/body/main/div/div[2]/article/div/section/div[2]
+    - Xpath fecha: //time[@class="the-single-about__date u-text-capitalize"]/text()
+    - Xpath título: //h1[@class="the-single__title"]/text()
+    - Xpath contenido: //div[@class="the-single-section__text the-single-section-text"]//p//text()
 
 
 33. - Nombre: El Día
@@ -740,9 +740,9 @@
     - URL ejemplo categoria: https://www.diarioeldia.cl/policial/2023/6/28/familia-de-matias-araya-joven-asesinado-en-ovalle-exige-justicia-102251.html
     - XPATH enlances noticias:
     - URL noticia: https://www.diarioeldia.cl/deportes/2023/6/28/que-aseguran-que-sergio-jadue-esta-en-quiebra-en-miami-dormiria-con-su-mama-102262.html
-    - Xpath fecha: //*[@id="main-content"]/div/div/div[2]/div[1]/article/div[1]/div[2]/div[2]/div[3]
-    - Xpath título: //*[@id="main-content"]/div/div/div[2]/div[1]/article/hgroup/h1
-    - Xpath contenido: //*[@id="cuerpo-nota"]
+    - Xpath fecha: //div[@class="fecha"]/text()
+    - Xpath título: //h1[@class="titular"]/text()
+    - Xpath contenido: //*[@id="cuerpo-nota"]//p//text()
 
 34. - Nombre: La Región
     - Ubicacion: Coquimbo, Región de Coquimbo
@@ -762,9 +762,9 @@
     - URL ejemplo categoria: https://www.diariolaregion.cl/presidente-gabriel-boric-resalta-anuncios-en-seguridad-transportes-y-ciudades-para-la-region-de-coquimbo/
     - XPATH enlances noticias:
     - URL noticia: https://www.diariolaregion.cl/el-puerto-sera-sede-de-torneo-del-deporte-adaptado-impulsado-por-teleton/
-    - Xpath fecha: /html/body/div[6]/div[2]/div/div[2]/div[1]/div/article/div[1]/header/div/span/time/text()
-    - Xpath título: /html/body/div[6]/div[2]/div/div[2]/div[1]/div/article/div[1]/header/h1
-    - Xpath contenido: /html/body/div[6]/div[2]/div/div[2]/div[1]/div/article/div[2]
+    - Xpath fecha: //span[@class="td-post-date"]/time/text()
+    - Xpath título: //h1[@class="entry-title"]/text()
+    - Xpath contenido: //div[@class="td-post-content"]//p//text()
 
 35. - Nombre: El Ovallino
     - Ubicacion: Ovalle, Región de Coquimbo, Chile
@@ -784,10 +784,10 @@
     - URL ejemplo categoria: http://www.elovallino.cl/policial/roban-copas-intentan-incendiar-sede-club-lautaro-tricolor-guindo
     - XPATH enlances noticias:
     - URL noticia: http://www.elovallino.cl/social/mas-30-localidades-provincia-limari-sin-electrificacion-publica
-    - Xpath fecha: //*[@id="articulo"]/div/div/div[1]/div/div[4]/div/article/div/div[2]/small/span/text()
-    - Xpath título: //*[@id="page-header"]/div/h1
-    - Xpath contenido: //*[@id="articulo"]/div/div/div[1]/div/div[4]/div/article/div/div[5]/div/div
-
+    - Xpath fecha: //div[@class="submitted"]/small/span/text()[2]
+    - Xpath título: //h1[@class="title"]/text()
+    - Xpath contenido: //div[@class="field-item even"]//p//text()
+## aqui quede..
 36. - Nombre: El Coquimbano
     - Ubicacion: Coquimbo, Región de Coquimbo, Chile
     - Año fundación: 2013

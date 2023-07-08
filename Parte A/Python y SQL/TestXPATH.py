@@ -4,7 +4,7 @@ from requests_html import HTMLSession
 session = HTMLSession()
 
 ## URL que escrapear
-URL = "url noticia"
+URL = "http://www.elovallino.cl/social/mas-30-localidades-provincia-limari-sin-electrificacion-publica"
 ## Simular que estamos utilizando un navegador web
 USER_AGENT_LIST = [
         "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/22.0.1207.1 Safari/537.1",
@@ -31,8 +31,8 @@ headers = {'user-agent':random.choice(USER_AGENT_LIST) }
 response = session.get(URL,headers=headers)
 response.html.render()
 
-xpath = response.html.xpath('XPATH A PROBAR')
-
+xpath = response.html.xpath('//div[@class="field-item even"]//p//text()')
+# //*[@id="articulo"]/div/div/div[1]/div/div[4]/div/article/div/div[2]/small/span/text()[2]
 for i in range(len(xpath)):
     print(xpath[i])
 #print(len(xpath))
