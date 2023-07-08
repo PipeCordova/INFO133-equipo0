@@ -1092,7 +1092,7 @@
     - Categoría(s): Noticias de Mariquina, Actualidad, Agro y Ganadería, Ciencia y Tecnología, Panoramas y Cultura, Deportes, Educación, Emergencias, Fruticultura del Sur, Emprendimiento y Negocios, Opinión, Política, Salud, Turismo
     - URL principal categoria: https://www.diariosanjose.cl/noticias/politica
     - URL ejemplo categoria: https://www.diariosanjose.cl/noticia/politica/2023/06/comision-de-agricultura-del-senado-pide-al-presidente-boric-utilizar-2-constitucional-para-urgente-atencion-de-emergencia
-    - XPATH enlances noticias:
+    - XPATH enlances noticias: 
     - URL noticia: https://www.diariosanjose.cl/noticia/deportes/2023/06/copa-del-mundo-de-azerbaiyan-el-nuevo-desafio-de-javiera-gomez
     - Xpath fecha: //*[@id="printableArea"]/small/text()
     - Xpath título: //*[@id="printableArea"]/h1/text()
