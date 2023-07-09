@@ -12,10 +12,10 @@
    - Seguidores TW: 66700
    - Actividad Seguidores: 28/06/2023
    - Categoría(s): Nacional, Política, Economía, Deportes, Cultura, Ciencia y Socidad, Humanidades
-   - URL principal categoria: www.diarioconcepcion.cl/politica
+   - URL principal categoria: https://www.diarioconcepcion.cl/politica/
    - URL ejemplo categoria: https://www.diarioconcepcion.cl/politica/2023/06/28/presidente-gabriel-boric-en-alto-biobio-comuna-dispondra-de-helicoptero-de-la-armada.html
    - XPATH enlances noticias: //div//h1/a/@href
-   - URL noticia: https://www.diarioconcepcion.cl/ciudad/2023/06/28/advierten-peak-respiratorio-de-adultos-y-ninos-tras-inundaciones-en-la-region.html
+   - URL noticia: https: //www.diarioconcepcion.cl/ciudad/2023/06/28/advierten-peak-respiratorio-de-adultos-y-ninos-tras-inundaciones-en-la-region.html
    - Xpath fecha: //span[@class="the-single__date"]/text()
    - Xpath título: //h1[@class="the-single__title"]/text()
    - Xpath contenido: //div[@class="the-single__text"]//p//text()
@@ -60,7 +60,7 @@
    - Categoría(s): Nacional, Política, Mundo, Opinión
    - URL principal categoria: https://www.latercera.com/canal/politica/
    - URL ejemplo categoria: https://www.latercera.com/politica/noticia/cronologia-el-giro-en-180-del-senador-latorre-en-el-caso-que-remece-a-rd/YHVTDYNO45HYNJFORQRTZQPDZQ/
-   - XPATH enlances noticias: //article//h3/a/@href
+   - XPATH enlances noticias: //article//h4/a/@href
    - URL noticia: https://www.latercera.com/la-tercera-pm/noticia/31-millones-para-campana-del-apruebo-consejo-para-la-transparencia-envia-al-ministerio-publico-nuevos-antecedentes-sobre-aportes-a-democracia-viva/A3ISKUCKOREBDL3JXH5Y6ZV6UQ/
    - Xpath fecha: //time/small/b/text()
    - Xpath título: //div[@class="hl"]//div/text()
@@ -82,7 +82,7 @@
    - Categoría(s): Economía, Deportes, Espectáculos, Tendencias, Autos, Servicios
    - URL principal categoria: https://www.emol.com/deportes/
    - URL ejemplo categoria: https://www.emol.com/noticias/Deportes/2023/06/28/1099418/barrios-seyboth-wild-horario-wimbledon.html
-   - XPATH enlances noticias: //div[@id="col_center_420px"]//h3/a/@href
+   - XPATH enlances noticias: //div//h3/a/@href
    - URL noticia: https://www.emol.com/noticias/Economia/2023/06/28/1099392/cifras-crecimiento-recaudacion-pacto-fiscal.html
    - Xpath fecha: //*[@id="barra-agencias-info"]/div[1]/text()
    - Xpath título: //*[@id="cuDetalle_cuTitular_tituloNoticia"]/text()
@@ -127,7 +127,7 @@
    - Categoría(s): Mercados, Opinión, Multimedia, Cultura, Avisos Legales
    - URL principal categoria: https://www.elmostrador.cl/cultura/
    - URL ejemplo categoria: https://www.elmostrador.cl/cultura/2023/06/28/escritora-ucraniana-victoria-amelina-se-encuentra-en-estado-critico-tras-ataque-de-misil-en-pizzeria/
-   - XPATH enlances noticias: //div//h1/a/@href
+   - XPATH enlances noticias: //div//h2/a/@href
    - URL noticia: https://www.elmostrador.cl/noticias/pais/2023/06/28/en-ningun-pais-ha-resultado-academico-uc-cuestiona-comision-contra-la-desinformacion-del-gobierno/
    - Xpath fecha: //div[@class="d-the-single"]/time/text()
    - Xpath título: //div[@class="d-the-single"]/h1/text()
@@ -194,7 +194,7 @@
    - Categoría(s): País, Regiones, Deportes, Mundo, Opinión, Multimedia, Programas
    - URL principal categoria: https://opinion.cooperativa.cl/
    - URL ejemplo categoria: https://opinion.cooperativa.cl/opinion/site/tax/port/all/taxport_11___1.html
-   - XPATH enlances noticias: //div/a/@href
+   - XPATH enlances noticias: //div//a[@target]/@href
    - URL noticia: https://www.cooperativa.cl/noticias/economia/impuestos/ministro-marcel-se-mostro-optimista-sobre-el-avance-de-un-nuevo-pacto/2023-06-28/143656.html
    - Xpath fecha: //div[@class="fecha-publicacion"]/time/text()
    - Xpath título: //*[@id="despliegue-titular"]/h1/text()
@@ -214,7 +214,7 @@
     - Seguidores TW: 508900
     - Actividad Seguidores: 28/06/2023
     - Categoría(s): País, Política, Educación, Opinión, Entretención, Deportes
-    - URL principal categoria: eldinamo.cl/educacion/
+    - URL principal categoria: https://www.eldinamo.cl/educacion/
     - URL ejemplo categoria: https://www.eldinamo.cl/educacion/2023/06/28/colegio-de-profesores-ratifico-paro-nacional-tras-reunion-con-el-mineduc/
     - XPATH enlances noticias: //div//h2/a/@href
     - URL noticia: https://www.eldinamo.cl/deportes/2023/06/28/los-errores-de-santiago-2023-que-reconoce-mayne-nicholls-y-sus-reparos-a-la-comision-investigadora/
@@ -240,7 +240,7 @@
     - Categoría(s): Últimas noticias, Empresas, Mercados, Economía, Opinión, Videos, Podcast, Avisos
     - URL principal categoria: https://www.df.cl/empresas
     - URL ejemplo categoria: https://www.df.cl/empresas/industria/wom-eleva-reclamacion-contra-el-gobierno-ante-la-corte-suprema-y-acusa
-    - XPATH enlances noticias: //div//h2/a/@href
+    - XPATH enlances noticias: //*[@id="wrap-noticias"]//div//h2/a/@href
     - URL noticia: https://www.df.cl/empresas/construccion/ministra-lopez-anuncia-366-mil-millones-para-la-reconstruccion-tras
     - Xpath fecha: //span[@class="fecha-noticia"]/text()
     - Xpath título: //*[@id="titulo_articulo"]/text()
@@ -306,7 +306,7 @@
     - Categoría(s): Política, Medio Ambiente, Economía, Pueblos, Justicia, Salud, Género, Sociedad, Arte
     - URL principal categoria: https://www.elciudadano.com/economia/
     - URL ejemplo categoria: https://www.elciudadano.com/actualidad/hay-o-no-razones-para-subir-precios-de-rubros-agricolas/06/28/
-    - XPATH enlances noticias: //div//h2/a/@href
+    - XPATH enlances noticias: //div/a/@href
     - URL noticia: https://www.elciudadano.com/actualidad/cientificos-de-chile-crean-antibiotico-eficaz-para-el-combate-de-bacterias-multirresistentes/06/28/
     - Xpath fecha: //p[@class="text-muted"]/small/span/@data-date
     - Xpath título: //h1[@class="mb-4 the_title"]/text()
@@ -329,7 +329,7 @@
     - Categoría(s): Pilítica, País, Orbe, Cultura, Análisis, No Deje De Leer, Entrevistas
     - URL principal categoria: https://elsiglo.cl/category/politica/
     - URL ejemplo categoria: https://elsiglo.cl/integrante-de-bancada-pc-debe-presidir-la-camara-baja-luis-cuello/
-    - XPATH enlances noticias: //div//h2/a/@href
+    - XPATH enlances noticias: //*[@id="main"]//div//h2/a/@href
     - URL noticia: https://elsiglo.cl/salvador-allende-el-nacimiento-de-un-lider-y-luchador-social/
     - Xpath fecha: //header[@class="entry-header"]//div[@class="date"]/a/text()
     - Xpath título: //h1[@class="entry-title"]/text()
@@ -352,7 +352,7 @@
     - Categoría(s): Región, Nacional, Mundo, Tendencias, Opinión, Café al Paso
     - URL principal categoria: https://www.chasquis.cl/diario/secciones.php?id=15
     - URL ejemplo categoria: https://www.chasquis.cl/diario/page.php?id=20881
-    - XPATH enlances noticias: //tbody//h1/a/@href
+    - XPATH enlances noticias: //table/tbody//a/@href
     - URL noticia: https://www.chasquis.cl/diario/page.php?id=20851
     # NO SE PUEDE SIMPLIFICAR MAS (xpath titulo) DEBIDO AL FORMATO DE LA PAGINA, NO OCUPA CLASS NI IDS
     - Xpath fecha: //div[@class="style10"]/text()
@@ -360,28 +360,27 @@
     - Xpath contenido: //span[@class="style10"]//p//text()
   
 
-17. - Nombre: El Rancagüino
-    - Ubicación: Rancagua, Región del Libertador General Bernardo O'Higgins, Chile
-    - Año fundacion: 1915
-    - Cobertura: Nacional e internacional
-    - Fundador(es): Miguel González Navarro
-    - Sitio web: https://www.elrancaguino.cl/
-    - Cuenta IG: diarioelrancaguino
-    - Cuenta FB: El Rancagüino
-    - Cuenta TW: Diario El Rancagüino
-    - Seguidores IG: 38500
-    - Seguidores FB: 71000
-    - Seguidores TW: 59800
-    - Actividad Seguidores: 28/06/2023
-    - Categoría(s): Último Minuto, Deportes, Policial, Comunas, Actualidad, Política, Editorial
-    - URL principal categoria: https://www.elrancaguino.cl/category/politica/
-    - URL ejemplo categoria: https://www.elrancaguino.cl/2023/06/26/proponen-fondo-de-500-millones-de-dolares-para-la-reconstruccion/
-    - XPATH enlances noticias: 
-    # NO ME DEJA PROBAR NADA NO SE PORQUE...
-    - URL noticia: https://www.elrancaguino.cl/2023/06/28/delantero-de-lanus-suena-como-posible-refuerzo-de-ohiggins/
-    - Xpath fecha: /html/body/div[2]/section[2]/div/div[1]/div/div[4]/div/ul/li[2]/span[2]/text()
-    - Xpath título: //h1[@class="elementor-heading-title elementor-size-default"]/text()
-    - Xpath contenido: /html/body/div[2]/section[2]/div/div[1]/div/div[10]/div/text()
+17. - Nombre: El Calbucano
+    - Ubicación: Calbuco, Región de Los Lagos, Chile
+    - Año fundacion: 2006
+    - Cobertura: Regional
+    - Fundador(es): Claudio Marquez Maragaño
+    - Sitio web: https://www.elcalbucano.cl/
+    - Cuenta IG: elcalbucanocl
+    - Cuenta FB: El Calbucano
+    - Cuenta TW: Diario Digital El Calbucano
+    - Seguidores IG: 2057
+    - Seguidores FB: 22000
+    - Seguidores TW: 1993
+    - Actividad Seguidores: 08/07/2023
+    - Categoría(s): Calbuco, Regional, Educación, Deportes, Opinión, Actualidad, Cultura, Defunciones, Policial, Salud
+    - URL principal categoria: https://www.elcalbucano.cl/cat/educacion/
+    - URL ejemplo categoria: https://www.elcalbucano.cl/2023/07/inasistencia-grave-disminuye-en-primer-semestre-escolar-de-la-region/
+    - XPATH enlances noticias: //div//h3/a/@href
+    - URL noticia: https://www.elcalbucano.cl/2023/07/brigada-de-robos-puerto-montt-recibe-reconocimiento-a-nivel-nacional/
+    - Xpath fecha: //*[@id="post-79015"]/div[1]/div[2]/header/div/span/time/text()
+    - Xpath título: //div//h1[@class="entry-title"]/text()
+    - Xpath contenido: 
     
 18. - Nombre: El Cóndor
     - Ubicación: Santa Cruz, Región del Libertador General Bernardo O'Higgins, Chile
@@ -421,7 +420,7 @@
     - Categoría(s): Noticias, Deportes, Policial, Avisos Legales
     - URL principal categoria: https://www.diarioviregion.cl/index.php/policial
     - URL ejemplo categoria: https://www.diarioviregion.cl/index.php/policial/25740-pdi-incauto-desde-local-comercial-ropa-falsificada-avaluada-17-millones
-    - XPATH enlances noticias: //div//h3/a/@href
+    - XPATH enlances noticias: //*[@id="t3-mainbody"]//div//h3/a/@href
     - URL noticia: https://www.diarioviregion.cl/index.php/noticias/25735-alcalde-pablo-silva-junto-a-ministros-recorrieron-sector-los-huertos-y-visitaron-a-damnificados
     - Xpath fecha: //dd[@class="published hasTooltip"]/time/text()
     - Xpath título: //h1[@class="article-title"]/text()
@@ -444,7 +443,7 @@
     - Categoría(s): Actualidad, Dato Útil, Opinión, Economía, Triunfo, Vanguardia, Avisos Legales
     - URL principal categoria: https://www.lanacion.cl/economia/
     - URL ejemplo categoria: https://www.lanacion.cl/ventas-minoristas-presenciales-caen-12-real-en-mayo-en-linea-con-baja-de-abril/
-    - XPATH enlances noticias:
+    - XPATH enlances noticias: //*[@id="td-outer-wrap"]//div//h3/a/@href
     - URL noticia: https://www.lanacion.cl/fiscal-de-antofagasta-informo-que-tras-allanar-domicilio-se-le-incautaron-computador-y-celular-a-daniel-andrade/
     - Xpath fecha: //time[@class="entry-date updated td-module-date"]/text()
     - Xpath título: //h1[@class="tdb-title-text"]/text()
@@ -467,7 +466,7 @@
     - Categoría(s): Comunas, Deportes, Minería, Columnistas, Bolsa de Trabajo
     - URL principal categoria: https://www.elandino.cl/category/mineria/
     - URL ejemplo categoria: https://www.elandino.cl/us-4-millones-diarios-cuesta-la-huelga-en-codelco-andina/
-    - XPATH enlances noticias: //div//h3/a/@href
+    - XPATH enlances noticias: //*[@id="b9d-layout"]//div//h3/a/@href
     - URL noticia: https://www.elandino.cl/liceo-mixto-realizo-emotiva-ceremonia-de-despedida-al-profesor-modesto-montenegro-gonzalez/
     - Xpath fecha: //div[@class="post-date-bd"]//span/text()
     - Xpath título: //h1[@class="entry-title"]/text()
@@ -487,9 +486,9 @@
     - Seguidores TW: 10600
     - Actividad Seguidores: 30/06/2023
     - Categoría(s): Local, Regional, Educación, Deportes, Cultura, Actualidad
-    - URL principal categoria: https://www.eha.cl/
-    - URL ejemplo categoria: https://www.eha.cl/noticias/deportes
-    - XPATH enlances noticias: //div//h3/a/@href
+    - URL principal categoria: https://www.eha.cl/noticias/deportes
+    - URL ejemplo categoria: https://www.eha.cl/noticia/deportes/equipo-las-loicas-de-la-ensenadina-nicole-plaguemann-obtuvo-tercer-lugar-en-mundial-de-rafting-de-italia
+    - XPATH enlances noticias: //div[@class="post-content secondary-news"]//h4/a/@href
     - URL noticia: https://www.eha.cl/noticia/deportes/joven-nadador-cristobal-villouta-obtuvo-tres-medallas-de-oro-en-campeonato-nacional-de-invierno-de-natacion
     - Xpath fecha: //*[@id="container"]//div[@class="entry-meta meta-0 font-small mb-30"]/span/text()
     - Xpath título: //h1[@class="post-title"]/a/text()
@@ -511,12 +510,12 @@
     - Categoría(s): Agricultura, Crónica, Cultura, Deportes, Editorial, Nacional, Opinión, Policial, Politica, Social, Ediciones Anteriores
     - URL principal categoria: https://www.diarioelheraldo.cl/categoria/cultura
     - URL ejemplo categoria: https://www.diarioelheraldo.cl/noticia/en-linares-fue-resaltada-celebracion-de-ano-nuevo-mapuche
-    - XPATH enlances noticias: //div/a/@href
+    - XPATH enlances noticias: //div[@class="columna70 top"]//div/a/@href[not(. = preceding::*/@href)]
     - URL noticia: https://www.diarioelheraldo.cl/noticia/provincia-de-linares-aun-4-personas-desaparecidas-tras-desborde-de-rios
     - Xpath fecha: //div[@class="categoria"]/text()[2]
     - Xpath título: //div[@class="titulo_destacada"]/text()
     - Xpath contenido: //div[@class="contenido_not"]//text()
-############# HASTA AQUI EN LA BASE DE DATOS (07-07-2023   0:27 hrs) #####################
+
 
 24. - Nombre: VerticeTV
     - Ubicación: Puerto Montt, Región de Los Lagos, Chile
@@ -578,7 +577,7 @@
     - Categoría(s): Policial y Tribunales, Salud, Medio Ambiente, Política, Deportes, Espectáculos
     - URL principal categoria: https://www.itvpatagonia.com/categoria/politica/
     - URL ejemplo categoria: https://www.itvpatagonia.com/noticias/politica/11-05-2023/senado-despacha-proyecto-que-establece-un-royalty-minero-por-la-explotacion-de-la-mineria-y-del-litio/
-    - XPATH enlances noticias: //*[@id="tdi_77"]//div//h3/a/@href
+    - XPATH enlances noticias: //*[@id="tdi_100"]//div//h3/a/@href
     - URL noticia: https://www.itvpatagonia.com/noticias/regional/10-06-2023/joven-magallanico-de-17-anos-triunfa-en-el-tenis-de-mesa-y-se-convierte-en-un-ejemplo-de-perseverancia/
     - Xpath fecha: //h1[@class="tdb-title-text"]/text()
     - Xpath título: //*[@id="tdi_73"]/div/div[2]/div/div[3]/div/h1 
@@ -622,7 +621,7 @@
     - Categoría(s): Policial, Regional, Nacional, Internacional, Crónica, Deportes, Cultura y Entretención, Tendencias, Opinión
     - URL principal categoria: https://elpinguino.com/categoria/deportes
     - URL ejemplo categoria: https://elpinguino.com/noticia/2023/06/22/arturo-vidal-asume-su-rol-en-la-seleccion-chilena-la-fuerza-de-los-jovenes-nos-va-a-llevar-a-otro-mundial
-    - XPATH enlances noticias:
+    - XPATH enlances noticias: //div/@x-data-enlace'
     - URL noticia: https://elpinguino.com/noticia/2023/06/27/conductor-resulto-con-lesiones-leves-tras-volcar-su-camion-en-la-ruta-ch-257-
     - Xpath fecha: /html/body/div[2]/div[2]/div[2]/div[1]/div[2]/text()
     - Xpath título: //div[@class="site3-content site3-single"]/h1/text()
@@ -669,7 +668,7 @@
     - Categoría(s): Policial, Nacional, Entrevistas, Deportes, Medio Ambiente, Cultura y Deporte
     - URL principal categoria: https://canalvtv.cl/categoria/policial
     - URL ejemplo categoria: https://canalvtv.cl/policial/mas-de-5-mil-kilos-de-droga-han-sido-sacados-de-circulacion-en-aconcagua-en-el-marco-del-plan-cannabis-2022-2023/2022/12/26/63a99675df86120009d8d197
-    - XPATH enlances noticias: //*[@id="component-5cc0f4f8-d3fa-4a82-ae7e-384f291fa875"]//div/a/@href
+    - XPATH enlances noticias: //*[@id="component-5cc0f4f8-d3fa-4a82-ae7e-384f291fa875"]//div/a/@href[not(. = preceding::*/a/@href)]
     - URL noticia: https://canalvtv.cl/cultura-y-deportes/clasico-amistoso-entre-trasandino-y-union-san-felipe-se-jugara-el-1-de-febrero/2023/01/31/63d98b0f5214e1000a851c73
     - Xpath fecha: //div[@class="layerTwo"]/p/text()[2]
     - Xpath título: //div[@class="layerTwo"]/p/text()[2]
@@ -691,7 +690,7 @@
     - Categoría(s): Noticias, Policial, Deportes, Ciencia y Tencología
     - URL principal categoria: https://new.diariolaprensa.cl/index.php/category/ciencia-y-tecnologia/
     - URL ejemplo categoria: https://new.diariolaprensa.cl/index.php/2023/04/21/talca-camina-a-convertirse-en-una-ciudad-inteligente/
-    - XPATH enlances noticias: //div//h3/a/@href
+    - XPATH enlances noticias: //div[@class="td-block-span12"]//h3/a/@href
     - URL noticia: https://new.diariolaprensa.cl/index.php/2023/06/28/manana-se-juega-frente-a-santiago-morning/
     - Xpath fecha: //div[@class="td-module-meta-info"]/span/time/text()
     - Xpath título: //h1[@class="entry-title"]/text()
@@ -713,8 +712,8 @@
     - Seguidores TW: 1700000
     - Actividad Seguidores: 30/06/2023
     - Categoría(s): Reportajes, Economía, Deportes, Casos policiales, Show, Alerta Climática
-    - URL principal categoria: https://www.chvnoticias.cl
-    - URL ejemplo categoria: https://www.chvnoticias.cl/deportes/
+    - URL principal categoria: https://www.chvnoticias.cl/deportes/
+    - URL ejemplo categoria: https://www.chvnoticias.cl/deportes/universidad-catolica-everton-campeonato-nacional_20230708/
     - XPATH enlances noticias: //div//h2/a/@href
     - URL noticia: https://www.chvnoticias.cl/nacional/fabiola-campillai-emplaza-gobierno-muerte-victima-trauma-ocular-jorge-salvo_20230630/
     - Xpath fecha: //time[@class="the-single-about__date u-text-capitalize"]/text()
@@ -750,17 +749,17 @@
     - Cobertura: Nacional
     - Fundador(es): Luis Villagrán Castellón
     - Sitio web: https://www.diariolaregion.cl/
-    - Cuenta IG: 
+    - Cuenta IG: Diario La Región Noticias
     - Cuenta FB: Diario La Región
     - Cuenta TW: Diario La Región
-    - Seguidores IG: 
+    - Seguidores IG: 87
     - Seguidores FB: 14000
     - Seguidores TW: 15800
     - Actividad Seguidores: 28/06/2023
     - Categoría(s): Actualidad, Policial, Política, Nacional, Deportes, Magazine
     - URL principal categoria: https://www.diariolaregion.cl/category/politica/
     - URL ejemplo categoria: https://www.diariolaregion.cl/presidente-gabriel-boric-resalta-anuncios-en-seguridad-transportes-y-ciudades-para-la-region-de-coquimbo/
-    - XPATH enlances noticias: //div//h3/a/@href
+    - XPATH enlances noticias: //div[@class="td-block-row"]//h3/a/@href
     - URL noticia: https://www.diariolaregion.cl/el-puerto-sera-sede-de-torneo-del-deporte-adaptado-impulsado-por-teleton/
     - Xpath fecha: //span[@class="td-post-date"]/time/text()
     - Xpath título: //h1[@class="entry-title"]/text()
@@ -782,7 +781,7 @@
     - Categoría(s): Provincia, Policial, Deportes, Cultura, Social, Economía, Papel Digital, Reportero Ciudadano
     - URL principal categoria: http://www.elovallino.cl/topico/policial
     - URL ejemplo categoria: http://www.elovallino.cl/policial/roban-copas-intentan-incendiar-sede-club-lautaro-tricolor-guindo
-    - XPATH enlances noticias: //div//h3/a/@href
+    - XPATH enlances noticias: //div[@class="content"]//h3/a/@href
     - URL noticia: http://www.elovallino.cl/social/mas-30-localidades-provincia-limari-sin-electrificacion-publica
     - Xpath fecha: //div[@class="submitted"]/small/span/text()[2]
     - Xpath título: //h1[@class="title"]/text()
@@ -791,20 +790,20 @@
 36. - Nombre: Diario Estrategia
     - Ubicacion: Santiago
     - Año fundación: 1978
-    - Cobertura: Internacional
+    - Cobertura: Nacional e Internacional
     - Fundador(es): Víctor Manuel Ojeda Méndez
     - Sitio web: https://www.diarioestrategia.cl/
-    - Cuenta IG: esstrategia.cl
-    - Cuenta FB: 
-    - Cuenta TW: 
-    - Seguidores IG: 113
-    - Seguidores FB: 
-    - Seguidores TW: 
+    - Cuenta IG: diarioestrategia.cl
+    - Cuenta FB: Diario Estrategia
+    - Cuenta TW: DiarioEstrategia.cl
+    - Seguidores IG: 1398
+    - Seguidores FB: 12000
+    - Seguidores TW: 78900
     - Actividad Seguidores: 08-07-2023
-    - Categoría(s): 
-    - URL principal categoria: 
-    - URL ejemplo categoria: 
-    - XPATH enlances noticias:
+    - Categoría(s): Negocios y Empresas, Dinero e Inversión, Automotriz, Tecnología, Ciencias y Salud, Internacional, País
+    - URL principal categoria: https://www.diarioestrategia.cl/tecnologia.php
+    - URL ejemplo categoria: https://www.diarioestrategia.cl/texto-diario/mostrar/4362173/kobe-bryant-protagoniza-portada-nba-2k24
+    - XPATH enlances noticias: //*[@id="widget_1770675"]//div/a/@href
     - URL noticia: https://www.diarioestrategia.cl/texto-diario/mostrar/4362027/tasa-interes-creditos-consumo-aumento-junio
     - Xpath fecha: //span[@class="article_date"]/span/text()
     - Xpath título: //h1[@class="article_title"]/text()
@@ -848,7 +847,7 @@
     - Categoría(s): Agricultura, Cultura y Espectáculos, Deportes, Educación, Locales, Nacional, Negocios y Turismo, Policial, Política, Salud
     - URL principal categoria: https://hdn.cl/categoria/noticias/policial/
     - URL ejemplo categoria: https://hdn.cl/noticias/policial/2023/06/12/subida-de-rio-habria-provocado-la-muerte-de-haitiano-en-rancagua/
-    - XPATH enlances noticias: //div//h3/a/@href
+    - XPATH enlances noticias: //div[@class="td-ss-main-content"]//h3/a/@href
     - URL noticia: https://hdn.cl/noticias/politica/2018/10/01/presidente-pinera-valora-triunfo-de-chile-en-la-corte-internacional-de-justicia/
     - Xpath fecha: //div[@class="td-post-header td-pb-padding-side"]/header/div/span/time/text()
     - Xpath título: //h1[@class="entry-title"]/text()
@@ -870,7 +869,7 @@
     - Categoría(s): Comunas, Internacional, Nacional, Editorial, Identidad, Deportes, Crónica Ciudadana, Salud, etc
     - URL principal categoria: https://www.latribuna.cl/categoria/salud/
     - URL ejemplo categoria: https://www.latribuna.cl/salud/2023/06/28/diez-regiones-disminuyen-sus-casos-confirmados-de-covid-19.html
-    - XPATH enlances noticias:
+    - XPATH enlances noticias: //*[@id="autor"]//div/a/@href[not(. = preceding::div/a/@href)]
     - URL noticia: https://www.latribuna.cl/deportes/2023/06/28/los-titulos-mundiales-de-argentina-y-uruguay-seran-usados-como-gancho-para-la-candidatura-2030.html
     - Xpath fecha: //div[@class="post-main"]/div/time/text()
     - Xpath título: //div[@class="post-main"]/h1/text()
@@ -899,22 +898,22 @@
     - Xpath contenido: //div[@class="entry-content article-body"]//p//text()
 
 41. - Nombre: The Santiago Times
-    - Ubicacion: Santiago
+    - Ubicacion: Santiago, Región Metropolitana, Chile
     - Año fundación: 1991
-    - Cobertura: Internacional
+    - Cobertura: Nacional e internacional
     - Fundador(es): Steve Anderson
     - Sitio web: https://santiagotimes.cl/
     - Cuenta IG: thesantiagotimes
-    - Cuenta FB: 
-    - Cuenta TW: 
+    - Cuenta FB: The Santiago Times
+    - Cuenta TW: Santiago Times Chile News
     - Seguidores IG: 508
-    - Seguidores FB: 
-    - Seguidores TW: 
-    - Actividad Seguidores: 08-07-2023
+    - Seguidores FB: 5900
+    - Seguidores TW: 6934
+    - Actividad Seguidores: 08/07/2023
     - Categoría(s): Nacional, Latino America, Canada, World, Deporte
-    - URL principal categoria: 
-    - URL ejemplo categoria: 
-    - XPATH enlances noticias:
+    - URL principal categoria: https://santiagotimes.cl/category/local/
+    - URL ejemplo categoria: https://santiagotimes.cl/2022/02/10/2021-was-a-good-year-for-foreign-direct-investment-in-chile-the-highest-since-2015/
+    - XPATH enlances noticias: //div//h3/a/@href
     - URL noticia: https://santiagotimes.cl/2022/02/10/puerto-montt-lender-priest-defrocked-for-canonical-offenses/
     - Xpath fecha: //header[@class="entry-header clearfix"]/div/span/a/text()
     - Xpath título: //h1[@class="entry-title"]/text()
@@ -958,7 +957,7 @@
     - Categoría(s): Nacional, Mundo, Tendencias, Calidad de vida
     - URL principal categoria: https://www.meganoticias.cl/nacional/
     - URL ejemplo categoria: https://www.meganoticias.cl/nacional/418277-seremi-vivienda-maule-traspasos-fundacion-urbanismo-social-investigacion-28-06-2023.html
-    - XPATH enlances noticias: //div/a/@href
+    - XPATH enlances noticias: //*[@id="main"]//div/a/@href
     - URL noticia: https://www.meganoticias.cl/nacional/419196-dos-personas-murieron-impacto-de-bala-pucon-region-de-la-araucania-8-7-2023.html
     - Xpath fecha: //div[@class="fechaHora"]/time/text()
     - Xpath título: //div[@class="contenedor-contenido"]/h1/text()
@@ -981,7 +980,7 @@
     - Categoría(s): Chile, Consejo Constitucional, Política, Mundo, Deportes, Negocios, Emprendedores, Tendencias
     - URL principal categoria: https://www.t13.cl/politica
     - URL ejemplo categoria: https://www.t13.cl/noticia/politica/gobierno-pide-separar-las-cosas-discusion-por-nuevo-pacto-fiscal-convenios-28-6-2023
-    - XPATH enlances noticias: //div/a/@href
+    - XPATH enlances noticias: //*[@id="t13-home-category-grilla-component"]//div/a/@href
     - URL noticia: https://www.deportes13.cl/futbol-nacional/en-medio-de-varios-conflictos-deportes-temuco-dio-el-batacazo-y-elimino-a
     - Xpath fecha: //div[@class="meta"]/time/text()
     - Xpath título: //div[@class="row articulo-detalle-content"]/article/h1/text()
@@ -1005,7 +1004,7 @@
     - URL ejemplo categoria: https://diarioelranco.cl/index.php/2023/06/28/municipio-de-lago-ranco-llevo-canastas-de-alimento-a-familias-de-la-region-de-nuble-afectadas-por-temporal/
     - XPATH enlances noticias: //div//h3/a/@href
     - URL noticia: https://diarioelranco.cl/index.php/2023/06/28/dos-adultos-fueron-detenidos-por-receptacion-de-especies-en-rio-bueno/
-    - Xpath fecha:  NO SE PUEDE PQ ES UNA IMAGEN
+    - Xpath fecha: IMAGEN --> NO SE PUEDE.
     - Xpath título: //h1[@class="tdb-title-text"]/text()
     - Xpath contenido: //div[@class="tdb-block-inner td-fix-index"]//p//text()
 
@@ -1026,7 +1025,7 @@
     - Categoría(s): Noticias de Paillaco, Actualidad, Agro y Ganadería, Ciencia y Tencología, Panoramas y Cultura, Deportes, Educación, Emergencias
     - URL principal categoria: https://www.diariopaillaco.cl/noticias/educacion
     - URL ejemplo categoria: https://www.diariopaillaco.cl/noticia/educacion/2023/06/ya-estan-abiertas-las-postulaciones-para-reconocimiento-profetp
-    - XPATH enlances noticias:
+    - XPATH enlances noticias: //div//h5/a/@href
     - URL noticia: https://www.diariopaillaco.cl/noticia/actualidad/2023/06/autoridades-valoran-recuperacion-del-servicio-de-agua-potable-para-familias-de-la-aguada
     - Xpath fecha: //div[@id="printableArea"]/small/text()
     - Xpath título: //*[@id="printableArea"]/h1/text()
@@ -1092,7 +1091,7 @@
     - Categoría(s): Noticias de Mariquina, Actualidad, Agro y Ganadería, Ciencia y Tecnología, Panoramas y Cultura, Deportes, Educación, Emergencias, Fruticultura del Sur, Emprendimiento y Negocios, Opinión, Política, Salud, Turismo
     - URL principal categoria: https://www.diariosanjose.cl/noticias/politica
     - URL ejemplo categoria: https://www.diariosanjose.cl/noticia/politica/2023/06/comision-de-agricultura-del-senado-pide-al-presidente-boric-utilizar-2-constitucional-para-urgente-atencion-de-emergencia
-    - XPATH enlances noticias: 
+    - XPATH enlances noticias: //*[@id="printableArea"]//div//h6/a/@href
     - URL noticia: https://www.diariosanjose.cl/noticia/deportes/2023/06/copa-del-mundo-de-azerbaiyan-el-nuevo-desafio-de-javiera-gomez
     - Xpath fecha: //*[@id="printableArea"]/small/text()
     - Xpath título: //*[@id="printableArea"]/h1/text()
