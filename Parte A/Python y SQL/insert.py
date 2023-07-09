@@ -69,8 +69,8 @@ def red_social(m):
         exit()
     seguidores = input("Ingrese el número de seguidores (INT): ").strip()
     if(seguidores == ""): seguidores = None;
-    #act_seguidores = input("Ingrese la última actualización de los seguidores (YYYY-MM-DD): ").strip()
-    act_seguidores = "2023-07-08" # Aqui cambiar a la fecha actual, es más comodo
+    act_seguidores = input("Ingrese la fecha de la última actualización de los seguidores (YYYY-MM-DD): ").strip()
+    #act_seguidores = "2023-07-08" # Aqui cambiar a la fecha actual, es más comodo
     if(act_seguidores == ""): act_seguidores = None;
     id_medio = m
 

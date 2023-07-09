@@ -380,7 +380,7 @@
     - URL noticia: https://www.elcalbucano.cl/2023/07/brigada-de-robos-puerto-montt-recibe-reconocimiento-a-nivel-nacional/
     - Xpath fecha: //*[@id="post-79015"]/div[1]/div[2]/header/div/span/time/text()
     - Xpath título: //div//h1[@class="entry-title"]/text()
-    - Xpath contenido: 
+    - Xpath contenido: //div[@class="td-post-content tagdiv-type"]//p//text()
     
 18. - Nombre: El Cóndor
     - Ubicación: Santa Cruz, Región del Libertador General Bernardo O'Higgins, Chile
