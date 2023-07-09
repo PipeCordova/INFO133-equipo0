@@ -1,3 +1,6 @@
+# Recibe como input el nombre de un medio de prensa y la URL de una noticia.
+# Devuelve el titulo y la fecha de publicacion de esta noticia.
+
 import mariadb
 import sys
 import random

@@ -1,4 +1,3 @@
-
 import mariadb
 import sys
 
@@ -38,6 +37,6 @@ def main():
         if continuar.lower() == "n":
             conn.close()
             print("bye")
-        break
+            break
             
 main()
