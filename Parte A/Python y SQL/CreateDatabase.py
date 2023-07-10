@@ -36,7 +36,7 @@ cur.execute("CREATE TABLE sitio_web (url_sw VARCHAR(255), PRIMARY KEY(url_sw), I
 
 cur.execute("CREATE TABLE noticia (url_noti VARCHAR(255), xp_fecha VARCHAR(255), xp_titulo VARCHAR(255), xp_contenido VARCHAR(255), url_sw VARCHAR(255), PRIMARY KEY(url_noti), FOREIGN KEY (url_sw) REFERENCES sitio_web(url_sw) );")
 
-cur.execute("CREATE TABLE categoria (nombre VARCHAR(50), XPATH VARCHAR(50), url_prin VARCHAR(255), url_ej VARCHAR(255), url_sw VARCHAR(255), PRIMARY KEY(nombre), FOREIGN KEY (url_sw) REFERENCES sitio_web(url_sw) );")
+cur.execute("CREATE TABLE categoria (nombre VARCHAR(255),url_sw VARCHAR(255),XPATH VARCHAR(255),url_prin VARCHAR(255),url_ej VARCHAR(255),PRIMARY KEY (nombre, url_sw),FOREIGN KEY (url_sw) REFERENCES sitio_web(url_sw) ); " )
 
 cur.execute("CREATE TABLE fundado_por (nombre VARCHAR(50), ID_MEDIO VARCHAR(50), PRIMARY KEY(nombre, ID_MEDIO), FOREIGN KEY (ID_MEDIO) REFERENCES medio_prensa(ID_MEDIO) );")
 
