@@ -1068,7 +1068,7 @@
     - Actividad Seguidores: 30/06/2023
     - Categoría(s): medioambiente, entretencion, fogon cultural
     - URL principal categoria: https://elinsular.cl/noticias/chiloe/
-    - URL ejemplo categoria: https://elinsular.cl/entretencion/
+    - URL ejemplo categoria: https://elinsular.cl/noticias/chiloe/2023/07/07/destacan-planificacion-de-trabajo-entre-el-municipio-y-carabineros/
     - XPATH enlances noticias: //div//h2/a/@href
     - URL noticia: https://elinsular.cl/entretencion/2023/06/09/banda-femenina-chilena-kiepja-se-suma-al-concierto-de-los-alemanes-haggard-en-chile/
     - Xpath fecha: //*[@id="single-post-meta"]/span[3]/text()
